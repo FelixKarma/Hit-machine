@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Le Hit Machine</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page de connexion</title>
+  </head>
+  <body>
     <header>
-        <nav><a href="header.html">
-            <img src="Img/logo.png" alt="logo hit machine" width="15%"></a>
-            <a href="Connexion.html" target="_self">
-            <div>
-                <button>Connexion</button></a>
-                
-            </div>
-        </nav>
-    </header>
-</body>
+      <div><a href="accueil.html"><img src="Img/logo.png "alt="Logo Hit Machine"></a>
+      <button>light/dark switch</button>
+          <a href="connexion.html"><button>Se connecter</button></a>
+          <a href="inscription.html"><button>S'nscrire</button></a></div>
+      <nav>
+          <div><a href="accueil.html"><button>Accueil</button></a>
+          <a href=""></a><button>Blogs</button>
+          <a href=""></a><button>Profils</button>
+          <a href=""></a><button>Chat</button>
+          <a href=""></a><button>Plus</button></div>
+          <div><form>
+          <input type="search" name="recherche" id="recherche" placeholder="Rechercher">
+      
+      </form></div>
+      
+      </nav>
+    <main>
+      <h1>Se Connecter</h1>
+      <section>
+        <form action="#" method="get">
+          <label for="identifiants">Déja inscrit ?</label> <br /><br />
+
+          <label for="pseudo">Pseudo</label>
+          <input
+            type="text"
+            name="pseudo"
+            id="pseudo"
+            value=""
+            placeholder="Diablox9"
+            required
+          /><br /><br />
+          <label for="mdp">Mot de passe</label>
+          <input
+            type="password"
+            name="mdp"
+            id="mdp"
+            value=""
+            placeholder="/\\/\\07|)3|D4553"
+            required
+          /><br /><br />
+          <a href="mdpoublié.html">Mot de passe oublié ?</a
+          ><br /><br />
+          <input type="submit" value="Connexion" />
+        </form>
+      </section>
+      <aside>
+        <a href="inscription.html"><button>Inscris-toi !</button></a>
+      </aside>
+    </main>
+  </body>
 </html>
