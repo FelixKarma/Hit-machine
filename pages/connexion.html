@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Le Hit Machine</title>
-</head>
-<body>
-    <header>
-        <nav><a href="header.html">
-            <img src="Img/logo.png" alt="logo hit machine" width="15%"></a>
-            <a href="Connexion.html" target="_self">
-            <div>
-                <button>Connexion</button></a>
-                
-            </div>
-        </nav>
-    </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page de connexion</title>
+  </head>
+  <body>
+    <main>
+      <h1>Se Connecter</h1>
+      <section>
+        <form action="#" method="get">
+          <label for="identifiants">Déja inscrit ?</label> <br /><br />
+
+          <label for="pseudo">Pseudo</label>
+          <input
+            type="text"
+            name="pseudo"
+            id="pseudo"
+            value=""
+            placeholder="Diablox9"
+            required
+          /><br /><br />
+          <label for="mdp">Mot de passe</label>
+          <input
+            type="password"
+            name="mdp"
+            id="mdp"
+            value=""
+            placeholder="/\\/\\07|)3|D4553"
+            required
+          /><br /><br />
+          <a href="mdpoublié.html">Mot de passe oublié ?</a
+          ><br /><br />
+          <input type="submit" value="Connexion" />
+        </form>
+      </section>
+      <aside>
+        <h4>Tu n'as toujours pas de compte ?</h4>
+        <a href="inscription.html"><button>Inscris-toi !</button></a>
+      </aside>
+    </main>
+  </body>
 </html>
