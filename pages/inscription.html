@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Le Hit Machine</title>
+  </head>
+  <body>
+    <header>
+      <img src="Img/logo.png" alt="Logo Hit Machine" />
+      <a href="page_connexion.html"
+        ><button class="caclasse">Se connecter</button></a
+      >
+      <a href="inscription.html"
+        ><button class="caclasse">S'inscrire</button></a
+      >
+      <nav>
+        <a href=""></a><button>Accueil</button> <a href=""></a
+        ><button>Blogs</button> <a href=""></a><button>Profils</button>
+        <a href=""></a><button>Chat</button>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Plus
+            <div class="dropdown-content">
+              <a href="">1</a>
+              <a href="">2</a>
+              <a href="">3</a>
+            </div>
+          </button>
+        </div>
+        <form>
+          <input
+            type="search"
+            name="recherche"
+            id="recherche"
+            placeholder="Rechercher"
+          />
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h1>Inscription</h1>
+          <br />
+          <!-- Formulaire D'inscription -->
+          <h4>Identifiants et paramètres de connexion</h4>
+          <form action="connexion.html" method="post">
+            <table>
+              <tr>
+                <td>Ton Blaze:*</td>
+                <td>
+                  <label for="pseudo"
+                    ><input
+                      type="text"
+                      name="pseudo"
+                      placeholder="Pseudo"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Email*</td>
+                <td>
+                  <label for="email"
+                    ><input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="email@mail.mail"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Retape ton Email*</td>
+                <td>
+                  <label for="email2"
+                    ><input
+                      type="email"
+                      name="email2"
+                      id="email2"
+                      placeholder="email@mail.mail"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton mot de passe*</td>
+                <td>
+                  <label for="mdp"
+                    ><input type="password" name="mdp" id="mdp" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Retape ton mot de passe*</td>
+                <td>
+                  <label for="mdp2"
+                    ><input type="password" name="mdp2" id="mdp2" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="langue">Langue:</label></td>
+                <td>
+                  <label for="langue"
+                    ><select name="langue" id="langue" required>
+                      <option value="fr">Français</option>
+                      <option value="eng">Anglais</option>
+                      <option value="leet">Leet</option>
+                    </select></label
+                  >
+                </td>
+              </tr>
+            </table>
+            <h4>Tes informations privées:</h4>
+            <table>
+              <tr>
+                <td>Tu es:</td>
+                <td>
+                  <label for="sexe"
+                    >Un Mec<input type="radio" name="sexe" id="sexe" required
+                  /></label>
+                </td>
+                <td>
+                  <label for="sexe2"
+                    >Une Gonzesse<input type="radio" name="sexe" id="sexe2"
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Prénom:*</td>
+                <td>
+                  <label for="pnom"
+                    ><input
+                      type="text"
+                      name="pnom"
+                      id="pnom"
+                      placeholder="Ex: Kevin,Jennifer,Dylan,..."
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Nom:*</td>
+                <td>
+                  <label for="nom"
+                    ><input type="text" name="nom" id="nom" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ta date de naissance:*</td>
+                <td>
+                  <label for="daten"
+                    ><input
+                      type="date"
+                      name="daten"
+                      id="daten"
+                      max="09/13/2023"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Pays:*</td>
+                <td>
+                  <label for="pays"
+                    ><input type="text" name="pays" id="pays" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ville:*</td>
+                <td>
+                  <label for="Ville"
+                    ><input type="text" name="Ville" id="Ville" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Tel Mobile:*</td>
+                <td>
+                  <label for="telm"
+                    ><input type="tel" name="telm" id="telm" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Tel Fixe:*</td>
+                <td>
+                  <label for="telf"
+                    ><input type="tel" name="telf" id="telf" required
+                  /></label>
+                </td>
+                <td><button type="submit">S'inscrire !</button></td>
+              </tr>
+            </table>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="Contact.html">Contactez-nous</a>
+      <a href="CGU.html">CGU</a>
+      <a href="SignaleBug.html">Signaler un bug</a>
+      <a href="Soutient.html">Soutenez-nous</a>
+    </footer>
+  </body>
+</html>
