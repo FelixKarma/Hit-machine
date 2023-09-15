@@ -1,0 +1,69 @@
+.nom {
+  font-size: xx-large;
+  margin-left: 1%;
+}
+header {
+  margin: 0;
+  background-color: #b3d7d7;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+body {
+  background-color: grey;
+  margin: 0px;
+  font-family: "Roboto";
+}
+.logo {
+  border-radius: 50%;
+  width: 5%;
+  position: absolute;
+  right: 1%;
+}
+main {
+  background-color: grey;
+  margin: 0%;
+  padding: 0%;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+#conteneur {
+  display: flex;
+  justify-content: space-evenly;
+}
+#expe {
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+}
+#comp {
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+}
+#forma {
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  padding: 10px;
+}
+#centrer {
+  display: flex;
+  justify-content: space-between;
+}
+.txtcentre {
+  text-align: center;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+section {width: 30%;margin-top: 20px;background-color: bisque;}

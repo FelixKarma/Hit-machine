@@ -3,31 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/connexion.css" />
     <title>Page de connexion</title>
   </head>
   <body>
     <header>
-      <div><a href="accueil.html"><img src="/Img/logo.png "alt="Logo Hit Machine"></a>
-      <button>light/dark switch</button>
-          <a href="connexion.html"><button>Se connecter</button></a>
-          <a href="inscription.html"><button>S'nscrire</button></a></div>
+      <div>
+        <a href="accueil.html"
+          ><img src="/Img/logo.png " alt="Logo Hit Machine"
+        /></a>
+        <button>light/dark switch</button>
+        <a href="connexion.html"><button>Se connecter</button></a>
+        <a href="inscription.html"><button>S'nscrire</button></a>
+      </div>
       <nav>
-          <div><a href="accueil.html"><button>Accueil</button></a>
-          <a href=""></a><button>Blogs</button>
-          <a href=""></a><button>Profils</button>
-          <a href=""></a><button>Chat</button>
-          <a href=""></a><button>Plus</button></div>
-          <div><form>
-          <input type="search" name="recherche" id="recherche" placeholder="Rechercher">
-      
-      </form></div>
-      
+        <div>
+          <a href="accueil.html"><button>Accueil</button></a> <a href=""></a
+          ><button>Blogs</button> <a href=""></a><button>Profils</button>
+          <a href=""></a><button>Chat</button> <a href=""></a
+          ><button>Plus</button>
+        </div>
+        <div>
+          <form>
+            <input
+              type="search"
+              name="recherche"
+              id="recherche"
+              placeholder="Rechercher"
+            />
+          </form>
+        </div>
       </nav>
     </header>
-    <main>
-      <h1>Se Connecter</h1>
-      <section>
+    <main class="sections">
+      <h1>Se Connecter</h1><br>
+      <section id="section1">
+        <a href="inscription.html"><button>Inscris-toi !</button></a>
+      </section>
+      <section id="section2">
         <form action="#" method="get">
           <label for="identifiants">Déja inscrit ?</label> <br /><br />
 
@@ -49,21 +63,24 @@
             placeholder="/\\/\\07|)3|D4553"
             required
           /><br /><br />
-          <a href="mdpoublié.html">Mot de passe oublié ?</a
-          ><br /><br />
+          <a href="mdpoublié.html">Mot de passe oublié ?</a><br /><br />
           <input type="submit" value="Connexion" />
         </form>
       </section>
-      <aside>
-        <a href="inscription.html"><button>Inscris-toi !</button></a>
-      </aside>
+
+      <section id="section3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          tempora culpa, eius in optio ad deserunt doloremque quam blanditiis
+          explicabo?
+        </p>
+      </section>
     </main>
     <footer>
       <a href="contact.html">Contactez-nous</a>
       <a href="CGU.text" target="_blank">CGU</a>
       <a href="signaleBug.html">Signaler un bug</a>
       <a href="soutient.html">Soutenez-nous </a>
-     
-  </footer>
+    </footer>
   </body>
 </html>
