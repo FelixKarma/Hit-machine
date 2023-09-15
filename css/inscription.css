@@ -1,0 +1,45 @@
+nav {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+div {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0%;
+  background-color: #1e1e1e;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
+}
+footer {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.caclasse {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border-radius: 50%;
+  width: 10%;
+  height: 35px;
+}
+
+main {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+button {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+input {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
