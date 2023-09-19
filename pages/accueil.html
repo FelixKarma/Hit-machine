@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/git/Hit-machine/css/accueil.css">
     <title>Le Hit Machine</title>
 </head>
 <body>
 
     <header>
-        <div><a href="accueil.html"><img src="/Img/logo.png"alt="Logo Hit Machine" id="logacc"></a>
-        <button>light/dark switch</button>
-            <a href="connexion.html"><button>Se connecter</button></a>
-            <a href="inscription.html"><button>S'nscrire</button></a></div>
-        <nav>
-            <div><a href="accueil.html"><button>Accueil</button></a>
+        <div>
+       <span class="spanlog">
+        <a title="Le Hit Machine" href="accueil.html"><img src="/git/Hit-machine/Img/logo.png" alt="Logo Hit Machine" id="logacc"></a>
+       
+       <meta itemprop="name" content="Le Hit Machine">
+       <div id="divbut"> 
+       <button>light/dark switch</button>
+            <a href="connexion.html"><button class="btncoin">Se connecter</button></a>
+            <a href="inscription.html"><button class="btncoin">S'nscrire</button></a></div> </span><br>
+        
+            <nav>
+                <div>
+            <a href="accueil.html" id="navi"><button>Accueil</button></a>
             <a href=""></a><button>Blogs</button>
             <a href=""></a><button>Profils</button>
             <a href=""></a><button>Chat</button>
-            <a href=""></a><button>Plus</button>
-            <input type="search" name="recherche" id="recherche" placeholder="Rechercher">         
+            <a href="" hover></a><button>Plus</button>
+            </div>
+            <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
+                <meta itemprop="target" content="accueil.html/?s={query}">
+                <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search" name="s" autocomplete="off">
+                <button type="submit" id="search">Recherche</button>
+            </form>      
             
+        </nav>
         
         </div>
-            
-        
-        </nav>
     </header>
     
     <main>
-        <section id="Blog">
-            <article class="subBlog"> 
+        <section class="Blog">
+            <article class="subBlog" id="sub1"> 
                 <!--Article au centre  -->
                 <h1>Blog de la semaine</h1>
                 <h4>Nom du blog</h4>
@@ -41,25 +51,25 @@
                 <button><img src="/Img/bouton_like.png" alt="Bouton like"></button>
                 <button><img src="/Img/bouton_commente.png" alt=""></button></figure>
             </article>
-            <!-- Aside coté gauche --> <aside class="subBlog">
+            <!-- Aside coté gauche --> <article id="sub2">
                 <h3>Top 100 Blog</h3>
             <ol>
                 <li><a href="profil Mathieu">Mathieu</a></li>
                 <li><a href="profil Charly">Charly</a></li>
                 <li><a href="profil Josh">Josh</a></li>
             </ol>
-        </aside>
-            <!-- Aside coté droit --><aside class="subBlog">
+        </article>
+            <!-- Aside coté droit --><article class="subBlog" id="sub3">
                 <h3>Chat</h3>
                 <div>Trucmuch <br>
                 <p>Ami n°1 <br>
                 Ami n°2</p>
             </div><br><br>
 
-            </aside>
+            </article>
         </section>
     </main>
-    <footer id="foot">
+    <footer>
         <a href="contact.html" class="foo">Contactez-nous</a>
         <a href="CGU.text" target="_blank" class="foo">CGU</a>
         <a href="signaleBug.html" class="foo">Signaler un bug</a>
