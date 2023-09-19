@@ -64,6 +64,14 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
-section {width: 30%;margin-top: 20px;background-color: bisque;}
+section {
+  width: 30%;
+  margin: 20px;
+  background-color: bisque;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+h1 {
+}
