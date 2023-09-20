@@ -11,15 +11,50 @@
       <a href="accueil.html"
         ><img class="logo" src="/Img/logo.png" alt="Logo Hit Machine"
       /></a>
-      <a href="connexion.html"
-        ><button class="caclasse">Se connecter</button></a
-      >
-      <a href="inscription.html"
-        ><button class="caclasse">S'inscrire</button></a
-      >
+      <div class="btncont">
+        <div class="bcon">
+          <a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          >
+        </div>
+        <div class="bins">
+          <a href="inscription.html"
+            ><button class="caclasse">S'inscrire</button></a
+          >
+        </div>
+      </div>
     </header>
 
     <main>
+      <div class="soushead">
+        <a href="accueil.html" id="navi"
+          ><button class="txtxxl">Accueil</button></a
+        >
+        <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
+        ><button class="txtxxl">Profils</button> <a href=""></a
+        ><button class="txtxxl">Chat</button> <a href="" hover></a
+        ><button class="txtxxl">Plus</button>
+        <div class="shform1">
+          <form class="shform"
+            action="accueil.html"
+            id="form"
+            method="get"
+            itemprop="potentialAction"
+          >
+            <meta itemprop="target" content="accueil.html/?s={query}" />
+            <input
+              id="s"
+              itemprop="query-input"
+              class="search-live"
+              type="text"
+              placeholder="Search"
+              name="s"
+              autocomplete="off"
+            />
+            <button type="submit" id="search">Recherche</button>
+          </form>
+        </div>
+      </div>
       <section>
         <article class="article">
           <nav class="htitre">
