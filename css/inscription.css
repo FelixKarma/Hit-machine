@@ -38,6 +38,9 @@ footer {
   justify-content: space-evenly;
   margin-right: 7%;
 }
+span{
+  color: #ffc700;
+}
 .bins {
   margin-left: 60%;
 }
@@ -90,13 +93,19 @@ form {
   border: double;
   border-color: #849fff;
 }
+.formins{
+  padding-left: 30px;
+}
 .htitre {
   background-color: #0074d9;
-  padding-left: 1%;
-  padding-bottom: 1%;
-  padding-right: 1%;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
+}
+td{
+  padding-right: 20px;
+}
+.btncentre{
+  margin-left: 50%;
 }
 .gtitre {
   text-align: center;

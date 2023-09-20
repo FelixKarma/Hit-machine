@@ -27,13 +27,14 @@
 
     <main>
       <div class="soushead">
+        <nav class="sh2">
         <a href="accueil.html" id="navi"
           ><button class="txtxxl">Accueil</button></a
         >
         <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
         ><button class="txtxxl">Profils</button> <a href=""></a
         ><button class="txtxxl">Chat</button> <a href="" hover></a
-        ><button class="txtxxl">Plus</button>
+        ><button class="txtxxl">Plus</button> </nav>
         <div class="shform1">
           <form class="shform"
             action="accueil.html"
@@ -62,11 +63,11 @@
           </nav>
           <br />
           <!-- Formulaire D'inscription -->
-          <h4>Identifiants et paramètres de connexion</h4>
-          <form action="connexion.html" method="post">
+          <form action="connexion.html" method="post" class="formins">
+            <h4>Identifiants et paramètres de connexion</h4>
             <table>
               <tr>
-                <td>Ton Blaze:*</td>
+                <td>Ton Blaze:<span>*</span></td>
                 <td>
                   <label for="pseudo"
                     ><input
@@ -78,7 +79,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ton Email*</td>
+                <td>Ton Email<span>*</span></td>
                 <td>
                   <label for="email"
                     ><input
@@ -91,7 +92,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Retape ton Email*</td>
+                <td>Retape ton Email<span>*</span></td>
                 <td>
                   <label for="email2"
                     ><input
@@ -104,7 +105,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ton mot de passe*</td>
+                <td>Ton mot de passe<span>*</span></td>
                 <td>
                   <label for="mdp"
                     ><input type="password" name="mdp" id="mdp" required
@@ -112,7 +113,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Retape ton mot de passe*</td>
+                <td>Retape ton mot de passe<span>*</span></td>
                 <td>
                   <label for="mdp2"
                     ><input type="password" name="mdp2" id="mdp2" required
@@ -148,7 +149,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ton Prénom:*</td>
+                <td>Ton Prénom:<span>*</span></td>
                 <td>
                   <label for="pnom"
                     ><input
@@ -161,7 +162,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ton Nom:*</td>
+                <td>Ton Nom:<span>*</span></td>
                 <td>
                   <label for="nom"
                     ><input type="text" name="nom" id="nom" required
@@ -169,7 +170,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ta date de naissance:*</td>
+                <td>Ta date de naissance:<span>*</span></td>
                 <td>
                   <label for="daten"
                     ><input
@@ -182,7 +183,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Pays:*</td>
+                <td>Pays:<span>*</span></td>
                 <td>
                   <label for="pays"
                     ><input type="text" name="pays" id="pays" required
@@ -190,7 +191,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Ville:*</td>
+                <td>Ville:<span>*</span></td>
                 <td>
                   <label for="Ville"
                     ><input type="text" name="Ville" id="Ville" required
@@ -198,7 +199,7 @@
                 </td>
               </tr>
               <tr>
-                <td>Tel Mobile:*</td>
+                <td>Tel Mobile:<span>*</span></td>
                 <td>
                   <label for="telm"
                     ><input type="tel" name="telm" id="telm" required
@@ -206,15 +207,15 @@
                 </td>
               </tr>
               <tr>
-                <td>Tel Fixe:*</td>
+                <td>Tel Fixe:<span>*</span></td>
                 <td>
                   <label for="telf"
                     ><input type="tel" name="telf" id="telf" required
                   /></label>
                 </td>
-                <td><button type="submit">S'inscrire !</button></td>
               </tr>
             </table>
+            <button type="submit" class="btncentre">S'inscrire !</button>
           </form>
         </article>
       </section>
