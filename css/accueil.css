@@ -33,7 +33,10 @@ nav{
 }
     
 .btncoin{
-    background-color: ;
+    color: white;
+    border-radius: 50%;
+    height: 35px;
+    background-color: rgb(82, 82, 82) ;
 }
 
 
@@ -47,15 +50,10 @@ header {
 
 
 
-
-
 body{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: gray;
     margin: 0px;
-}
-footer{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .caclasse{
@@ -102,13 +100,14 @@ input{
     order: 1;
     background-color: white;
     width: 59%;
+    border-radius: 5%;
 }
 
 #sub2{
    width: 18%;
     order: -1 ;
     background-color: rgb(255, 255, 255);
-    
+    border-radius: 5%;
     
 }
 
@@ -116,12 +115,14 @@ input{
     order: 1;
     background-color: white;
     width: 20%;
+    border-radius: 5%;
    
 }
 
 
 footer{
-    background-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #181818;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
