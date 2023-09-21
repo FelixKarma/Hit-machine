@@ -90,13 +90,27 @@ h1 {
   background-position: center;
 }
 
+#section2 {
+  height: fit-content;
+  padding: 20px;
+  background-color: rgb(218, 216, 216);
+}
+
+#section3 {
+  padding: 20px;
+  padding-top: 10px;
+  background-color: rgb(218, 216, 216);
+}
+
 article {
   border: 1px;
   border-color: black;
   border-style: solid;
+  border-radius: 5px;
   margin: 30px;
   padding: 25px;
   text-align: center;
+  background-color: rgb(118, 154, 193);
 }
 
 li {
@@ -113,17 +127,29 @@ li {
   border-color: chartreuse;
   border-style: solid;
 }
-.btn_font {font-size: 2rem;
-padding: 10px;
-margin-left: 15px;
-margin-right: 15px;}
+.btn_inscription {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(28, 165, 49);
+  border-radius: 5px;
+  border: 0px;
+}
 
-#section2 {height: fit-content;
-padding: 20px;}
+.btn_inscription:hover {
+  color:  rgb(186, 67, 67);
+  
+  
+}
 
-.label_font {font-size: 1.5rem;}
+.label_font {
+  font-size: 1.5rem;
+}
 
-.p1 {display: inline-block;
-margin-left: 10px;}
-#section3 {padding: 20px;
-padding-top: 10px;}
+.p1 {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: underline;
+}
