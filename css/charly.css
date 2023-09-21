@@ -1,7 +1,13 @@
 main {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url(/Img/blog/fondblog.jpg);
 }
-
+img{
+    height: 15vh;
+}
+.imgcenter{
+    text-align: center;
+}
 button {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
@@ -26,7 +32,6 @@ header {
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   margin: 0;
-  background-color: #474747;
 }
 .logo {
   position: absolute;
@@ -54,15 +59,17 @@ footer {
 }
 .soushead {
   display: flex;
-  background-color: #a0a0a0;
+  background-color: #a0a0a0bf;
   justify-content: space-evenly;
 }
-
+#shead {
+    
+}
 .txtxxl {
   font-size: x-large;
 }
 .soushead button {
-  background-color: #a0a0a0;
+  background-color: #a0a0a000;
   border: 0px;
 }
 
@@ -74,6 +81,9 @@ footer {
   width: 150%;
   height: 4vh;
 }
+.txtcenter{
+    text-align: center;
+}
 .centrer {
   text-align: center;
   margin-top: 5px;
@@ -83,5 +93,42 @@ footer {
   text-align: center;
   font-size: x-large;
   background-color: #0074d9;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   color: white;
+}
+.htitre {
+  background-color: #0074d9;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.profil {
+  width: 20%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
+}
+.blog {
+  width: 50%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
+}
+.infos {
+  width: 20%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
 }
