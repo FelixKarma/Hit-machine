@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/charly.css" />
+    <script
+      src="https://kit.fontawesome.com/fb5a705aa1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Le Hit Machine</title>
+  </head>
+  <body>
+    <header>
+      <a href="accueil.html"
+        ><img class="logo" src="/Img/logo.png" alt="Logo Hit Machine"
+      /></a>
+      <div class="btncont">
+        <div class="bcon">
+          <a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          >
+        </div>
+        <div class="bins">
+          <a href="inscription.html"
+            ><button class="caclasse">S'inscrire</button></a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="soushead">
+        <nav class="sh2">
+          <a href="accueil.html" id="navi"
+            ><button class="txtxxl">Accueil</button></a
+          >
+          <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
+          ><button class="txtxxl">Profils</button> <a href=""></a
+          ><button class="txtxxl">Chat</button> <a href="" hover></a
+          ><button class="txtxxl">Plus</button>
+        </nav>
+        <div class="shform1">
+          <form
+            class="shform"
+            action="accueil.html"
+            id="form"
+            method="get"
+            itemprop="potentialAction"
+          >
+            <meta itemprop="target" content="accueil.html/?s={query}" />
+            <input
+              id="s"
+              itemprop="query-input"
+              class="centrer"
+              type="text"
+              placeholder="Search"
+              name="s"
+              autocomplete="off"
+            />
+            <button type="submit" id="search">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: lightgray"
+              ></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a href="contact.html">Contactez-nous</a>
+      <a href="CGU.html">CGU</a>
+      <a href="signaleBug.html">Signaler un bug</a>
+      <a href="soutient.html">Soutenez-nous</a>
+    </footer>
+  </body>
+</html>
