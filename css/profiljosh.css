@@ -1,0 +1,180 @@
+nav {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  div {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  header {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0%;
+    height: 8vh;
+    background-color: #1e1e1e;
+  }
+  .logo {
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    height: 8vh;
+  }
+  body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+    background-color: #474747;
+    background-image: url(/Img/bgndprof.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .btncont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 7%;
+  }
+  span{
+    color: #ffc700;
+  }
+  .bins {
+    margin-left: 60%;
+  }
+  .soushead {
+    display: flex;
+    background-color: #a0a0a0;
+    /* padding-right: 20%;
+    padding-left: 20%; */
+    justify-content: space-evenly;
+  }
+  .shform {
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+  }
+  .shform1 {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+  }
+  .txtxxl {
+    font-size: x-large;
+  }
+  .soushead button {
+    background-color: #a0a0a0;
+    border: 0px;
+  }
+  form {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .caclasse {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    border-radius: 40px;
+    width: 150%;
+    height: 4vh;
+  }
+
+  p{
+    background-color: #474747;
+    color: white;
+  }
+
+  figure{
+    box-sizing: border-box;
+    border: 3px solid black;
+  }
+
+  .profil{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   margin: 8px;
+ }
+
+ .htitre {
+    background-color: #0074d9ad;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    
+    
+    
+    
+}
+
+.gtitre {
+    text-align: center;
+    background-color: #0074d9ad;
+    color: white;
+  }
+
+#prof1{
+    background-color: #d9d9d9ad;
+    width: 18%;
+    text-align: center;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+#btnlik{
+    background-image: url(/Img/bouton_like.png);
+    border-radius: 90%;
+    border: none;
+}
+
+#btncom{
+    background-image: url(/Img/bouton_commente.png);
+    background: none;
+    border: none;
+    
+}
+
+#imgpost{
+    background-color: black;
+}
+
+#prof2{
+    background-color: #d9d9d9ad;
+    width: 59%;
+    text-align: center;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+#prof3{
+    background-color: #d9d9d9ad;
+    width: 20%;
+    text-align: left;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin: 2%;
+}
+
+.divami{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h4{
+    text-align: center;
+}
+
+
+
+footer{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: #181818;
+    display :flex ;
+    flex-flow :row nowrap;
+    justify-content :space-around;
+    padding-top: 1%;
+  padding-bottom: 1%;
+}

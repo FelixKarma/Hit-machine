@@ -1,11 +1,9 @@
 nav{
-    background-color: rgb(33, 33, 33);
+    background-color: #a0a0a0;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    margin: 1px;
-    padding: 1px;
     display: flex;
-    flex-flow:row nowrap;
-    
+    flex-flow: row nowrap;
+    padding: 5px;
 }
 
 #form{
@@ -52,7 +50,7 @@ header {
 
 body{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: gray;
+    background-color: #474747;
     margin: 0px;
 }
 
@@ -66,8 +64,7 @@ body{
 }
 
 main{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: center;    
+    font-family: "Comic Sans MS", "Comic Sans", cursive;    
 }
 
 button{
@@ -88,44 +85,116 @@ input{
 
 
 .Blog{
-   
-    text-align: center;
+   text-align: center;
     margin: 8px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    border-radius: 2rem;
 }
+
+h1{
+    background-color: #849FFF;
+    
+}
+
+.htitre {
+    background-color: #0074d9;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    
+    
+    
+}
+
+.gtitre {
+    text-align: center;
+    background-color: #0074d9;
+    color: white;
+  }
+
+#imgpost{
+    background-color: black;
+}
+
 
 #sub1{
     order: 1;
-    background-color: white;
+    background-color: #D9D9D9;
     width: 59%;
-    border-radius: 5%;
+    text-align: center;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+#btnlik{
+    background-image: url(/Img/bouton_like.png);
+    background: none;
+    border-radius: 100%;
+    border: none;
+    
+}
+
+#btncom{
+    background-image: url(/Img/bouton_commente.png);
+    background: none;
+    border: none;
+    
+}
+
+figure{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
 }
 
 #sub2{
    width: 18%;
     order: -1 ;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5%;
-    
+    background-color:#D9D9D9 ;
+    text-align: center;
+    border-radius: 2rem;
 }
+
 
 #sub3{
     order: 1;
-    background-color: white;
+    background-color: #D9D9D9;
     width: 20%;
-    border-radius: 5%;
-   
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.divami{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h4{
+    text-align: center;
+}
+
+.imgProf{
+    width: 20%;
+    margin: 3px;
+}
+
+#pvert{
+    width: 10%;
 }
 
 
 footer{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background-color: #181818;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-
+    display :flex ;
+    flex-flow :row nowrap;
+    justify-content :space-around;
+    padding-top: 1%;
+  padding-bottom: 1%;
 }
 

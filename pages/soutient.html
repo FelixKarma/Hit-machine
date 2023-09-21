@@ -3,41 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/soutient.css">
     <title>Soutient finance</title>
 </head>
 <body>
     
     <header>
-        <div><a href="accueil.html"><img src="/Img/logo.png "alt="Logo Hit Machine"></a>
-        <button>light/dark switch</button>
-            <a href="connexion.html"><button>Se connecter</button></a>
-            <a href="inscription.html"><button>S'nscrire</button></a></div>
-        <nav>
-            <div><a href="accueil.html"><button>Accueil</button></a>
-            <a href=""></a><button>Blogs</button>
-            <a href=""></a><button>Profils</button>
-            <a href=""></a><button>Chat</button>
-            <a href=""></a><button>Plus</button></div>
-            <div><form>
-            <input type="search" name="recherche" id="recherche" placeholder="Rechercher">
-        
-        </form></div>
-        
-        </nav>
+        <div>
+            <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png" alt="Logo Hit Machine" id="logsou"></a>
+            
+            <meta itemprop="name" content="Le Hit Machine">
+            <div id="divbut"> 
+            <button>light/dark switch</button>
+                 <a href="connexion.html"><button class="btncoin">Se connecter</button></a>
+                 <a href="inscription.html"><button class="btncoin">S'nscrire</button></a></div> </span><br>
+             
+                 <nav>
+                     <div>
+                 <a href="accueil.html" id="navi"><button>Accueil</button></a>
+                 <a href=""></a><button>Blogs</button>
+                 <a href=""></a><button>Profils</button>
+                 <a href=""></a><button>Chat</button>
+                 <a href="" hover></a><button>Plus</button>
+                 </div>
+                 <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
+                     <meta itemprop="target" content="accueil.html/?s={query}">
+                     <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search" name="s" autocomplete="off">
+                     <button type="submit" id="search">Recherche</button>
+                 </form>      
+                 
+             </nav>
+             
+             </div>
     </header>
-    <br><br><br><br>
+    
     <main>
-        <!-- A mettre au millieu -->
-        <section>
-            <h1>Soutenez-nous
-            <img src="/Img/tips.png" alt="Image d'une jar remplis d'argent"></h1>
-            <br>
-            <p>Ajoutez votre pierre a l'édifice en faisant un don pour nous permettre de maintenir notre site.</p><br><br><br>
-            <a href="https://www.paypal.com/fr/home" target="_blank"><button>Faire un don</button></a>
+        <section class="secsout">
+            <article id="artsout"><br><br>
+            <span class="spaImg"><img src="/Img/tips.png" alt="Image d'une jar remplis d'argent" id="iconjar1"><h1>Soutenez-nous
+            </h1><img src="/Img/tips.png" alt="Image d'une jar remplis d'argent" id="iconjar2"></span>
+            <br><br><br><br>
+            <p>Ajoutez donc votre pierre a l'édifice en faisant un don pour nous permettre de maintenir notre site.</p><br><br><br>
+            <a href="https://www.paypal.com/fr/home" target="_blank"><button id="pay">Faire un don</button></a></div>
+            <br><br><br><br><br><br><br><br><br><br>
 
 
-        </section>
+        </article>
+    </section>
     </main>
     <footer>
         <a href="contact.html">Contactez-nous</a>
