@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/dons.css" />
     <title>Dons</title>
   </head>
   <body>
@@ -39,22 +40,25 @@
         </form>
       </nav>
     </header>
-    <h1>Soutiens mon Blog !</h1>
+    <main class="box">
+      <h1>Soutiens mon Blog !</h1>
+      <div class="separator"></div>
+      <div class="container">
+        <form action="paiement.html" method="get">
+          <label for="10">10 €</label>
+          <input type="radio" id="10" name="dons" required /><br />Merci pour le
+          grec ! <br /><br />
+          <label for="100">100 €</label>
+          <input type="radio" id="100" name="dons" /><br />Tu régales !
+          <br /><br />
+          <label for="1000">1 000 €</label>
+          <input type="radio" id="1000" name="dons" /><br />Grand Seigneur
+          <br /><br />
 
-    <form action="paiement.html" method="get">
-      <label for="10">10 €</label>
-      <input type="radio" id="10" name="dons" required/><br />Merci pour le grec !
-      <br /><br />
-      <label for="100">100 €</label>
-      <input type="radio" id="100" name="dons"/><br />Tu régales ! <br /><br />
-      <label for="1000">1 000 €</label>
-      <input type="radio" id="1000" name="dons" /><br />Grand Seigneur
-      <br /><br />
-
-      <input type="submit" name="dons" value="Claquer mon RSA">
-    </form><br>
-    <p>Me contacter en MP pour les dons en Crypto.</p>
-
-
+          <input type="submit" name="dons" value="Claquer mon RSA" />
+        </form>
+      </div>
+      <p>Me contacter en MP pour les dons en Crypto.</p>
+    </main>
   </body>
 </html>
