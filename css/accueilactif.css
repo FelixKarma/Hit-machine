@@ -27,10 +27,6 @@ nav{
     flex-flow: row nowrap;
     justify-content: flex-end;
 }
-#divbut{
-    display: flex;
-   flex-direction: row-reverse;
-}
 
 #form{
     position: absolute;right: 1%;
@@ -41,6 +37,12 @@ nav{
     width: 10%;
 }
 
+#divbut{
+    display: flex;
+   flex-direction: row-reverse;
+}
+
+    
 .btncoin{
     color: white;
     border-radius: 50%;
@@ -191,4 +193,3 @@ footer{
     padding-top: 1%;
   padding-bottom: 1%;
 }
-

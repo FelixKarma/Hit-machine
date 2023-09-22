@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <link rel="icon" href="/Img/iconHm.png">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,57 +8,38 @@
     <title>Profil Josh</title>
 </head>
 <body>
-    <header>
-        <a href="accueil.html"
-          ><img class="logo" src="/Img/logo.png" alt="Logo Hit Machine"
-        /></a>
-        <div class="btncont">
-          <div class="bcon">
-            <a href="connexion.html"
-              ><button class="caclasse">Se connecter</button></a
-            >
-          </div>
-          <div class="bins">
-            <a href="inscription.html"
-              ><button class="caclasse">S'inscrire</button></a
-            >
-          </div>
+  <header>
+    <div>
+   <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png" alt="Logo Hit Machine" id="logacc"></a>
+   
+   <meta itemprop="name" content="Le Hit Machine">
+   <div id="divbut"> 
+   <button>light/dark switch</button>
+        <a href="connexion.html"><button class="btncoin">Se connecter</button></a>
+        <a href="inscription.html"><button class="btncoin">S'nscrire</button></a></div> </span><br>
+    
+        <nav>
+            <div>
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
         </div>
-      </header>
+        <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
+            <meta itemprop="target" content="accueil.html/?s={query}">
+            <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Recherche" name="s" autocomplete="off">
+            <button type="submit" id="search">Recherche</button>
+        </form>      
+        
+    </nav>
+    
+    </div>
+</header>
+
   
       <main>
-        <div class="soushead">
-          <nav class="sh2">
-            <a href="accueil.html" id="navi"
-              ><button class="txtxxl">Accueil</button></a
-            >
-            <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
-            ><button class="txtxxl">Profils</button> <a href=""></a
-            ><button class="txtxxl">Chat</button> <a href="" hover></a
-            ><button class="txtxxl">Plus</button>
-          </nav>
-          <div class="shform1">
-            <form
-              class="shform"
-              action="accueil.html"
-              id="form"
-              method="get"
-              itemprop="potentialAction"
-            >
-              <meta itemprop="target" content="accueil.html/?s={query}" />
-              <input
-                id="s"
-                itemprop="query-input"
-                class="centrer"
-                type="text"
-                placeholder="Search"
-                name="s"
-                autocomplete="off"
-              />
-              <button type="submit" id="search"><i class="fa-solid fa-magnifying-glass" style="color: lightgray;"></i></button>
-            </form>
-          </div>
-        </div>
+         
         <section class="profil">
             <article id="prof1">
                 <nav class="htitre">
@@ -96,7 +78,7 @@
         <a href="CGU.text" target="_blank" class="foo">CGU</a>
         <a href="signaleBug.html" class="foo">Signaler un bug</a>
         <a href="soutient.html" class="foo" >Soutenez-nous</a>
-       
+        <span><a href="français.html">Français</a> | <a href="anglais.html">Anglais</a> | <a href="leet.html">LEET</a></span>
     </footer>
 
 </body>
