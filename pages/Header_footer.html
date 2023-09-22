@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Header_footer.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="/Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
+      </div>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item class="btn caclasse"
+          ><a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          ></item
+        >
+        <item class="btn caclasse"
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
+      </div>
+    </header>
+    <nav>
+      <div class="btn_nav">
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
+      </div>
+      <form class="searchbar"
+        action="accueil.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
+      </form>
+    </nav>
+  </body>
+</html>
