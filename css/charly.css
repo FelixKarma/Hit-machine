@@ -1,6 +1,6 @@
 main {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  background-image: url(/Img/blog/fondblog.jpg);
+  background-image: url(/Img/blog/fondblog.jpg);  
 }
 img{
     height: 15vh;
@@ -62,9 +62,6 @@ footer {
   background-color: #a0a0a0bf;
   justify-content: space-evenly;
 }
-#shead {
-    
-}
 .txtxxl {
   font-size: x-large;
 }
@@ -117,6 +114,8 @@ footer {
   background-image: linear-gradient(white, #474747c6);
   border: double;
   border-color: #849fff;
+  position:sticky;
+  max-height: 700px;
 }
 .blog {
   width: 50%;
@@ -131,4 +130,6 @@ footer {
   background-image: linear-gradient(white, #474747c6);
   border: double;
   border-color: #849fff;
+  position: sticky;
 }
+
