@@ -9,37 +9,33 @@
   </head>
   <body>
     <header>
-      <img src="/Img/logo.png" alt="Logo Hit Machine" />
-      <a href="page_connexion.html"
-        ><button class="caclasse">Se connecter</button></a
-      >
-      <a href="inscription.html"
-        ><button class="caclasse">S'inscrire</button></a
-      >
-      <nav>
-        <a href=""></a><button>Accueil</button> <a href=""></a
-        ><button>Blogs</button> <a href=""></a><button>Profils</button>
-        <a href=""></a><button>Chat</button>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Plus
-            <div class="dropdown-content">
-              <a href="">1</a>
-              <a href="">2</a>
-              <a href="">3</a>
-            </div>
-          </button>
-        </div>
-        <form>
-          <input
-            type="search"
-            name="recherche"
-            id="recherche"
-            placeholder="Rechercher"
-          />
-        </form>
+      <div>
+     <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png" alt="Logo Hit Machine" id="logacc"></a>
+     
+     <meta itemprop="name" content="Le Hit Machine">
+     <div id="divbut"> 
+     <button>light/dark switch</button>
+          <a href="connexion.html"><button class="caclasse">Se connecter</button></a>
+          <a href="inscription.html"><button class="caclasse">S'nscrire</button></a></div> </span><br>
+      
+          <nav>
+              <div>
+          <a href="accueil.html" id="navi"><button>Accueil</button></a>
+          <a href=""><button>Blogs</button></a>
+          <a href=""><button>Profils</button></a>
+          <a href=""><button>Chat</button></a>
+          <a href="" hover><button>Plus</button></a>
+          </div>
+          <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
+              <meta itemprop="target" content="accueil.html/?s={query}">
+              <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Recherche" name="s" autocomplete="off">
+              <button type="submit" id="search">Recherche</button>
+          </form>      
+          
       </nav>
-    </header>
+      
+      </div>
+  </header>
     <main class="box">
       <h1>Soutiens mon Blog !</h1>
       <div class="separator"></div>
