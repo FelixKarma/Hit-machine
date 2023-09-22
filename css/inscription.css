@@ -68,6 +68,11 @@ span{
   background-color: #a0a0a0;
   border: 0px;
 }
+.soushead button.hover {
+  background-color: #d6d6d6db;
+  opacity: 70%;
+  border: 0px;
+}
 form {
   padding-right: 1%;
   padding-left: 1%;
@@ -118,6 +123,27 @@ td{
   font-size: x-large;
   background-color: #0074d9;
   color: white;
+}
+#pub1{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  padding-left: 1%;
+  padding-top: 5%;
+}
+#pub2{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  padding-left: 84%;
+  padding-top: 15%;
+}
+#pub3{
+  position: absolute;
+  height: 30%;
+  width: 15%;
+  padding-left: 1%;
+  padding-top: 25%;
 }
 main {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
