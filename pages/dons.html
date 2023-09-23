@@ -1,60 +1,111 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="../css/dons.css" />
-    <title>Dons</title>
+    <title>Document</title>
   </head>
   <body>
-    <header>
-      <div>
-     <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png" alt="Logo Hit Machine" id="logacc"></a>
-     
-     <meta itemprop="name" content="Le Hit Machine">
-     <div id="divbut"> 
-     <button>light/dark switch</button>
-          <a href="connexion.html"><button class="caclasse">Se connecter</button></a>
-          <a href="inscription.html"><button class="caclasse">S'nscrire</button></a></div> </span><br>
-      
-          <nav>
-              <div>
-          <a href="accueil.html" id="navi"><button>Accueil</button></a>
-          <a href=""><button>Blogs</button></a>
-          <a href=""><button>Profils</button></a>
-          <a href=""><button>Chat</button></a>
-          <a href="" hover><button>Plus</button></a>
-          </div>
-          <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
-              <meta itemprop="target" content="accueil.html/?s={query}">
-              <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Recherche" name="s" autocomplete="off">
-              <button type="submit" id="search">Recherche</button>
-          </form>      
-          
-      </nav>
-      
-      </div>
-  </header>
-    <main class="box">
-      <h1>Soutiens mon Blog !</h1>
-      <div class="separator"></div>
-      <div class="container">
-        <form action="paiement.html" method="get">
-          <label for="10">10 €</label>
-          <input type="radio" id="10" name="dons" required /><br />Merci pour le
-          grec ! <br /><br />
-          <label for="100">100 €</label>
-          <input type="radio" id="100" name="dons" /><br />Tu régales !
-          <br /><br />
-          <label for="1000">1 000 €</label>
-          <input type="radio" id="1000" name="dons" /><br />Grand Seigneur
-          <br /><br />
+    <!-- HEADER -->
 
-          <input type="submit" name="dons" value="Claquer mon RSA" />
-        </form>
+    <header>
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="/Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
       </div>
-      <p>Me contacter en MP pour les dons en Crypto.</p>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item
+          ><a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          ></item
+        >
+        <item
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="btn_nav">
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
+      </div>
+      <form
+        class="searchbar"
+        action="accueil.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
+      </form>
+    </nav>
+
+    <!-- MAIN -->
+
+    <main>
+      <div class="box">
+        <h1>Soutiens mon Blog !</h1>
+        <div class="separator"></div>
+        <div class="container">
+          <form action="#" method="get">
+            <label for="10">10 €</label>
+            <input type="radio" id="10" name="dons" required /><br />Merci pour le
+            grec ! <br /><br />
+            <label for="100">100 €</label>
+            <input type="radio" id="100" name="dons" /><br />Tu régales !
+            <br /><br />
+            <label for="1000">1 000 €</label>
+            <input type="radio" id="1000" name="dons" /><br />Grand Seigneur
+            <br /><br />
+  
+            <input class="btn_don" type="submit" name="dons" value="Claquer mon RSA" />
+          </form>
+        </div>
+        <p class="p1"  >Me contacter en MP pour les dons en Crypto.</p>
+      </div>
     </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <a href="contact.html"><button>Contactez-nous</button></a>
+      <a href="CGU.text" target="_blank"><button>CGU</button></a>
+      <a href="signalbug.html"><button>Signaler un bug</button></a>
+      <a href="soutient.html"><button>Soutenez-nous</button></a>
+      <span
+        ><a href="français.html"><button>Français</button></a>
+        <a href="anglais.html"><button>Anglais</button></a>
+        <a href="leet.html"><button>LEET</button></a></span>
   </body>
 </html>

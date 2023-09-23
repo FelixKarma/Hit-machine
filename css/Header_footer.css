@@ -7,6 +7,13 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
 /* HEADER */
 
 /* PARTIE HAUTE */
@@ -38,21 +45,18 @@ header {
   margin: 0px 5px 0px 5px;
 }
 
-.switch {
+.caclasse {
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border-radius: 40px;
+  height: 4vh;
+  border: 0;
+  padding: 0px 10px;
 }
 
-.caclasse {
-    background-color: rgb(82, 82, 82);
-    color: white;
-    border-radius: 40px;
-    height: 4vh;
-    border: 0;
-    padding: 0px 5px;
-   
-   
-  }
-
-.btn {
+.caclasse:hover {
+  color: #222;
+  background-color: white;
 }
 
 /* NAVBAR */
@@ -71,13 +75,15 @@ nav {
 }
 
 .btn_nav a button {
-  
   border: 0;
   width: 75px;
   height: 30px;
   background: #a0a0a0;
-  
-  
+}
+
+.btn_nav a button:hover {
+  color: #a0a0a0;
+  background-color: #222;
 }
 
 .searchbar {
@@ -86,4 +92,38 @@ nav {
   justify-content: end;
   align-items: center;
   margin: 0px 10px 0px 10px;
+}
+
+/* MAIN */
+
+main {
+  flex: 1;
+  
+}
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #222;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a button {
+  color: rgb(194, 180, 180);
+  border: 0;
+  background-color: #222;
+  height: 40px;
+  width: 100px;
+}
+
+footer a button:hover {
+  background-color: rgb(194, 180, 180);
+  color: #222;
 }
