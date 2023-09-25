@@ -7,43 +7,90 @@
     <link rel="stylesheet" href="/css/profiljosh.css">
     <title>Profil Josh</title>
 </head>
-<body>
-  <header>
-    <div>
-   <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png" alt="Logo Hit Machine" id="logacc"></a>
-   
-   <meta itemprop="name" content="Le Hit Machine">
-   <div id="divbut"> 
-   <button>light/dark switch</button>
-        <a href="connexion.html"><button class="btncoin">Se connecter</button></a>
-        <a href="inscription.html"><button class="btncoin">S'nscrire</button></a></div> </span><br>
-    
-        <nav>
-            <div>
-        <a href="accueil.html" id="navi"><button>Accueil</button></a>
-        <a href=""><button>Blogs</button></a>
-        <a href=""><button>Profils</button></a>
-        <a href=""><button>Chat</button></a>
-        <a href="" hover><button>Plus</button></a>
-        </div>
-        <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
-            <meta itemprop="target" content="accueil.html/?s={query}">
-            <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Recherche" name="s" autocomplete="off">
-            <button type="submit" id="search">Recherche</button>
-        </form>      
-        
-    </nav>
-    
-    </div>
-</header>
 
+<body>
+
+  <header>
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="/Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
+      </div>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item
+          ><a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          ></item
+        >
+        <item
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
+      </div>
+    </header>
   
+    <nav>
+        <div class="btn_nav">
+          <a href="accueil.html" id="navi"><button>Accueil</button></a>
+          <a href=""><button>Blogs</button></a>
+          <a href=""><button>Profils</button></a>
+          <a href=""><button>Chat</button></a>
+          <a href="" hover><button>Plus</button></a>
+        </div>
+        <form
+          class="searchbar"
+          action="accueil.html"
+          id="form"
+          method="get"
+          itemprop="potentialAction"
+        >
+          <meta itemprop="target" content="accueil.html/?s={query}" />
+          <input
+            id="s"
+            itemprop="query-input"
+            class="search-live"
+            type="text"
+            placeholder="Recherche"
+            name="s"
+            autocomplete="off"
+          />
+          <button type="submit" id="search">Recherche</button>
+        </form>
+      </nav>
+
       <main>
          
         <section class="profil">
             <article id="prof1">
                 <nav class="htitre">
                     <h1 class="gtitre">Profil</h1></nav>
+                     <h4><b><em><u>EleKdONnfZik</u></em></b></h4>
+                     <img src="../Img/imgprof.jpg" alt="image profiljosh" id="imgprof"><br>
+                   <br><hr>
+                   <p>Hello le monde, <br>
+                  Ici sur le blog creer par le grand EleKdONnfZik,<br>
+                  Je vous presenterais de la musique <b><em>EleKtrO</em></b>.</p>
+                  <hr><br>
+                  <p id="textprof">Messagerie <br><br>
+                  Mes favoris <br><br>
+                  Mes amis <br><br>
+                  Utilisateurs bloqué(es)</p>
+
+                   
+
+
             </article>
             <article id="prof2">
                 <nav class="htitre">
@@ -59,27 +106,36 @@
                 <button id="btnlik"><img src="/Img/bouton_like.png" alt="Bouton like" id="icoLike"></button>
                 <button id="btncom"><img src="/Img/bouton_commente.png" alt="Bouton Commente" id="icoCom"></button></figure>
             </article>
-            </article>
+
             <article id="prof3">
                 <nav class="htitre">
-                    <h1 class="gtitre">Information</h1></nav>
-                    <h5>Online</h5>
-                
-                    <p>coucou<br>
-                    coucou <br>
-                    coucou <br>
-                    coucou</p>
+                    <h1 class="gtitre">Information</h1></nav><br>
+                    <p>
+                      Création du compte: ??/??/???? à ??h?? <br>
+                      Mise à jour le: ??/??/?? à ??h?? <br>
+                      ??? visites <br>
+                      ??? visites par mois <br>
+                      ??? Posts <br>
+                      ??? Commentaires <br>
+                      ??? Amis <br>
+                      ??? Favoris
+                    </p>
             </div><br><br>
             </article>
         </section>
       </main>
-      <footer>
-        <a href="contact.html" class="foo">Contactez-nous</a>
-        <a href="CGU.text" target="_blank" class="foo">CGU</a>
-        <a href="signaleBug.html" class="foo">Signaler un bug</a>
-        <a href="soutient.html" class="foo" >Soutenez-nous</a>
-        <span><a href="français.html">Français</a> | <a href="anglais.html">Anglais</a> | <a href="leet.html">LEET</a></span>
-    </footer>
+      
+      <footer class="footer">
+        <a href="contact.html"><button>Contactez-nous</button></a>
+        <a href="CGU.text" target="_blank"><button>CGU</button></a>
+        <a href="signalbug.html"><button>Signaler un bug</button></a>
+        <a href="soutient.html"><button>Soutenez-nous</button></a>
+        <span
+          ><a href="français.html"><button>Français</button></a>
+          <a href="anglais.html"><button>Anglais</button></a>
+          <a href="leet.html"><button>LEET</button></a></span
+        >
+      </footer>
 
 </body>
 </html>

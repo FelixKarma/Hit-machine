@@ -1,34 +1,57 @@
-class band {
-  constructor(band_name, band_logo, band_description, song_name, band_audio) {
+// Classes
+class bands {
+  constructor(band_name, band_img, band_desc, song_name, song) {
     this.band_name = band_name;
-    this.band_logo = band_logo;
-    this.band_description = band_description;
+    this.band_img = band_img;
+    this.band_desc = band_desc;
     this.song_name = song_name;
-    this.band_audio = band_audio;
+    this.song = song;
   }
 }
 
-let grp1 = new band(
-  "Fluisteraars",
-  "Hit-machineImgprofil_colon\bandsFluisteraars.jpg",
-  "???????????????????????????????????",
-  "De Dormen",
-  "Hit-Machine\vidéosTrololo.mp4"
+// Les différents groupes sous objets
+let grp1 = new bands(
+  "Groupe1",
+  "/Img/logo.png",
+  "Mon gros caca",
+  "ENORME",
+  `/C:/Users/nurserie1/Desktop/Projet Fil Rouge/fart.mp3`
+);
+let grp2 = new bands(
+  "Groupe2",
+  "/Img/logo.png",
+  "Mes gros caca",
+  "ENORMEE",
+  `/C:/Users/nurserie1/Desktop/Projet Fil Rouge/fart.mp3`
+);
+let grp3 = new bands(
+  "Groupe3",
+  "../Img/logo.png",
+  "Nos gros caca",
+  "ENORMEEE",
+  `/C:/Users/nurserie1/Desktop/Projet Fil Rouge/fart.mp3`
 );
 
-let grp2 = new band();
+/*Fonctions*/
 
-let grp3 = new band();
-
-function set_band(bands) {
-  if (bands == "grp1") {
+function setBand(groups) {
+  if (groups == "grp1") {
     document.getElementById("bname").innerHTML = grp1.band_name;
-  }else if (bands =="grp2") {
+    document.getElementById("bimg").innerHTML = grp1.band_img;
+    document.getElementById("bdesc").innerHTML = grp1.band_desc;
+    document.getElementById("sname").innerHTML = grp1.song_name;
+    document.getElementById("song").innerHTML = grp1.song;
+  } else if (groups == "grp2") {
     document.getElementById("bname").innerHTML = grp2.band_name;
-
-  }else if (bands == "grp3") {
+    document.getElementById("bimg").innerHTML = grp2.band_img;
+    document.getElementById("bdesc").innerHTML = grp2.band_desc;
+    document.getElementById("sname").innerHTML = grp2.song_name;
+    document.getElementById("song").innerHTML = grp2.song;
+  } else {
     document.getElementById("bname").innerHTML = grp3.band_name;
-  }else (bands == "grp4") {
-    return;
+    document.getElementById("bimg").innerHTML = grp3.band_img;
+    document.getElementById("bdesc").innerHTML = grp3.band_desc;
+    document.getElementById("sname").innerHTML = grp3.song_name;
+    document.getElementById("song").innerHTML = grp3.song;
   }
 }
