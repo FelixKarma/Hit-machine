@@ -98,6 +98,7 @@ nav {
 
 main {
   background-image: url(../Img/stars.jpg);
+  background-size: cover;
   flex: 1;
 }
 

@@ -60,3 +60,7 @@ h3 {
   flex-wrap: nowrap;
   align-items: center;
 }
+
+.band_logo {
+  width: 400px;
+}
