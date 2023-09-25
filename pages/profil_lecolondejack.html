@@ -83,15 +83,21 @@
       </div>
 
       <div class="post mrg_20 bor_rad_10">
-        <h2 class="band_name mrg_20">band_name</h2>
-        <img class="band_logo mrg_10" src="" alt="band_logo" />
-        <p class="band_description">band_description</p>
-        <p class="song_name">song_name</p>
-        <audio controls class="band_audio mrg_20" src=""></audio>
+        <h2 class="band_name mrg_20" id="bname">band_name</h2>
+        <img  id="bimg" class="band_logo mrg_10" src="" alt="Logo" />
+        <p class="band_description" id="bdesc">band_description</p>
+        <p class="song_name" id="sname">song_name</p>
+        <audio controls class="band_audio mrg_20" src="" id="song"></audio>
       </div>
 
       <div class="sidebar mrg_20 bor_rad_10">
         <h4>Articles</h4>
+        <br>
+        <select name="groups" id="groups">
+          <option value="grp1" onclick="setBand('grp1')" data-src="">Grp1</option>
+          <option value="grp2" onclick="setBand('grp2') ">Grp2</option>
+          <option value="grp3" onclick="setBand('grp3') ">Grp3</option>
+        </select>
       </div>
     </main>
 
@@ -108,5 +114,6 @@
         <a href="leet.html"><button>LEET</button></a></span
       >
     </footer>
+    <script src="/Js/profil_colon.js"></script>
   </body>
 </html>
