@@ -29,6 +29,6 @@ function set_band(bands) {
   }else if (bands == "grp3") {
     document.getElementById("bname").innerHTML = grp3.band_name;
   }else (bands == "grp4") {
-    
+    return;
   }
 }
