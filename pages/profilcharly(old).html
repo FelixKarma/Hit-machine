@@ -1,86 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/charly.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/charly(old).css" />
+    <script
+      src="https://kit.fontawesome.com/fb5a705aa1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Le Hit Machine</title>
   </head>
   <body>
-    <!-- HEADER -->
-
     <header>
-      <div class="logo">
-        <a title="Le Hit Machine" href="accueil.html"
-          ><img
-            class="logo"
-            src="/Img/logo.png"
-            alt="Logo Hit Machine"
-            id="logacc"
-        /></a>
-
-        <meta itemprop="name" content="Le Hit Machine" />
-      </div>
-
-      <div class="btn_switch">
-        <item class="switch"
-          ><button class="btn_lnd">light/dark switch</button>
-        </item>
-
-        <item
-          ><a href="connexion.html"
+      <a href="accueil.html"
+        ><img class="logo" src="/Img/logo.png" alt="Logo Hit Machine"
+      /></a>
+      <div class="btncont">
+        <div class="bcon">
+          <a href="connexion.html"
             ><button class="caclasse">Se connecter</button></a
-          ></item
-        >
-        <item
-          ><a href="inscription.html"
-            ><button class="caclasse">S'nscrire</button></a
-          ></item
-        >
+          >
+        </div>
+        <div class="bins">
+          <a href="inscription.html"
+            ><button class="caclasse">S'inscrire</button></a
+          >
+        </div>
       </div>
     </header>
 
-    <!-- NAVBAR -->
-
-    <nav class="nav">
-      <div class="btn_nav">
-        <a href="accueil.html" id="navi"><button>Accueil</button></a>
-        <a href=""><button>Blogs</button></a>
-        <a href=""><button>Profils</button></a>
-        <a href=""><button>Chat</button></a>
-        <a href="" hover><button>Plus</button></a>
-      </div>
-      <form
-        class="searchbar"
-        action="accueil.html"
-        id="form"
-        method="get"
-        itemprop="potentialAction"
-      >
-        <meta itemprop="target" content="accueil.html/?s={query}" />
-        <input
-          id="s"
-          itemprop="query-input"
-          class="search-live"
-          type="text"
-          placeholder="Recherche"
-          name="s"
-          autocomplete="off"
-        />
-        <button type="submit" id="search">Recherche</button>
-      </form>
-    </nav>
-
-    <!-- MAIN -->
-
     <main>
+      <div class="soushead" id="shead">
+        <nav class="sh2">
+          <a href="accueil.html" id="navi"
+            ><button class="txtxxl">Accueil</button></a
+          >
+          <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
+          ><button class="txtxxl">Profils</button> <a href=""></a
+          ><button class="txtxxl">Chat</button> <a href="" hover></a
+          ><button class="txtxxl">Plus</button>
+        </nav>
+        <div class="shform1">
+          <form
+            class="shform"
+            action="accueil.html"
+            id="form"
+            method="get"
+            itemprop="potentialAction"
+          >
+            <meta itemprop="target" content="accueil.html/?s={query}" />
+            <input
+              id="s"
+              itemprop="query-input"
+              class="centrer"
+              type="text"
+              placeholder="Search"
+              name="s"
+              autocomplete="off"
+            />
+            <button type="submit" id="search">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: lightgray"
+              ></i>
+            </button>
+          </form>
+        </div>
+      </div>
       <div class="container">
         <div class="profil">
           <nav class="htitre">
             <h1 class="gtitre">Xx_Charly_xX</h1>
           </nav>
           <nav class="imgcenter">
-            <img src="/Img/blog/pp.jpg" alt="Profile Picture" class="profilepic" />
+            <img src="/Img/blog/pp.jpg" alt="Profile Picture" />
           </nav>
           <p class="txtcenter"> Salut tout le monde! <br> Bienvenue sur ce blog de malade mental! <br> Je m'apelle Charly et je surkiffe la musique B-) 
         </p>
@@ -124,19 +117,11 @@
         </div>
       </div>
     </main>
-
-    <!-- FOOTER -->
-
-    <footer class="footer">
-      <a href="contact.html"><button>Contactez-nous</button></a>
-      <a href="CGU.text" target="_blank"><button>CGU</button></a>
-      <a href="signalbug.html"><button>Signaler un bug</button></a>
-      <a href="soutient.html"><button>Soutenez-nous</button></a>
-      <span
-        ><a href="français.html"><button>Français</button></a>
-        <a href="anglais.html"><button>Anglais</button></a>
-        <a href="leet.html"><button>LEET</button></a></span
-      >
+    <footer>
+      <a href="contact.html">Contactez-nous</a>
+      <a href="CGU.html">CGU</a>
+      <a href="signaleBug.html">Signaler un bug</a>
+      <a href="soutient.html">Soutenez-nous</a>
     </footer>
   </body>
 </html>

@@ -1,0 +1,132 @@
+main {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url(/Img/blog/fondblog.jpg);
+  background-attachment: fixed;
+}
+img{
+    height: 15vh;
+}
+.imgcenter{
+    text-align: center;
+}
+
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0;
+}
+
+header {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0%;
+  height: 8vh;
+  background-color: #1e1e1e;
+}
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 1%;
+  height: 8vh;
+}
+footer {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #181818;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.btncont {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 7%;
+}
+
+.bins {
+  margin-left: 60%;
+}
+.soushead {
+  display: flex;
+  background-color: #a0a0a0bf;
+  justify-content: space-evenly;
+}
+.txtxxl {
+  font-size: x-large;
+}
+.soushead button {
+  background-color: #a0a0a000;
+  border: 0px;
+}
+
+.caclasse {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: rgb(82, 82, 82);
+  color: white;
+  border-radius: 40px;
+  width: 150%;
+  height: 4vh;
+}
+.txtcenter{
+  text-align: center;
+}
+.centrer {
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 300px;
+}
+.gtitre {
+  text-align: center;
+  font-size: x-large;
+  background-color: #0074d9;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  color: white;
+}
+.htitre {
+  text-align: center;
+  background-color: #0074d9;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.profil {
+  width: 20%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
+  position:sticky;
+  max-height: 700px;
+}
+.blog {
+  width: 50%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
+}
+.infos {
+  width: 20%;
+  border-radius: 2rem;
+  background-image: linear-gradient(white, #474747c6);
+  border: double;
+  border-color: #849fff;
+  position: sticky;
+}
+.txtgrad{
+    background: -webkit-linear-gradient(#d04444, #fff838);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
