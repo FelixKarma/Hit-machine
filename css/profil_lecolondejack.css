@@ -1,0 +1,62 @@
+main {
+  background-image: url(../Img/profil_colon/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.profil {
+  background-color: #a0a0a0af;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.post {
+  background-color: #a0a0a0af;
+  flex: 2;
+}
+
+.sidebar {
+  background-color: #a0a0a0af;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.mrg_10 {
+  margin: 10px;
+}
+
+.mrg_20 {
+  margin: 20px;
+}
+
+.bor_rad_10 {
+  border-radius: 10px;
+}
+
+.pp {
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+.sidebar h4 {
+  margin-top: 15px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
