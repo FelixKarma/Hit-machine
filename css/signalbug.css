@@ -4,14 +4,16 @@
     padding: 0;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
-
+  
   body {
     height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    margin: 0px;
+    background-image: url(../Img/imgmatrix.jpg);
   }
-
+  
   header {
     display: flex;
     flex-direction: row;
@@ -20,13 +22,13 @@
     height: 60px;
     background: #222;
   }
-
+  
   .logo {
     flex: 1;
     height: 50px;
     margin-left: 10px;
   }
-
+  
   .btn_switch {
     flex: 1;
     display: flex;
@@ -38,7 +40,7 @@
   .btn_switch item {
     margin: 0px 5px 0px 5px;
   }
-
+  
   .caclasse {
     background-color: rgb(82, 82, 82);
     color: white;
@@ -52,7 +54,7 @@
     color: #222;
     background-color: white;
   }
-
+  
   nav {
     background: #a0a0a0;
     display: flex;
@@ -85,107 +87,15 @@
     align-items: center;
     margin: 0px 10px 0px 10px;
   }
-
-main {
+  
+  
+  main {
+    color: white;
     flex: 1;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  text-align: center;
-}
-
-
-.Blog {
-  text-align: center;
-  margin: 8px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  border-radius: 2rem;
-}
-
-.htitre {
-  background-color: #0074d9;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.gtitre {
-  text-align: center;
-  color: white;
-}
-
-#imgpost {
-  background-color: black;
-}
-
-#sub1 {
-  order: 1;
-  background-color: #d9d9d9;
-  width: 59%;
-  text-align: center;
-  border-radius: 2rem;
-  box-sizing: border-box;
-}
-
-#btnlik {
-  background-image: url(/Img/bouton_like.png);
-  background: none;
-  border-radius: 100%;
-  border: none;
-}
-
-#btncom {
-  background-image: url(/Img/bouton_commente.png);
-  background: none;
-  border: none;
-}
-
-figure {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row nowrap;
-}
-
-#sub2 {
-  width: 18%;
-  order: -1;
-  background-color: #d9d9d9;
-  text-align: center;
-  border-radius: 2rem;
-}
-
-#sub3 {
-  order: 1;
-  background-color: #d9d9d9;
-  width: 20%;
-  border-radius: 2rem;
-  text-align: left;
-}
-
-.divami {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-h4 {
-  text-align: center;
-}
-
-.imgProf {
-  width: 20%;
-  margin: 3px;
-}
-
-#pvert {
-  width: 10%;
-}
-
-footer {
+    text-align: center;
+  }
+  
+  footer {
     background-color: #222;
     height: 40px;
     display: flex;

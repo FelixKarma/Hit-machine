@@ -10,30 +10,65 @@
 <body>
 
     <header>
-        <div>
-        <span class="spanlog"><a title="Le Hit Machine" href="accueil.html"><img src="/Img/logo.png "alt="Logo Hit Machine" id="logcon"></a>
-
-        <meta itemprop="name" content="Le Hit Machine">
-        <div id="divbut">
-        <button>light/dark switch</button>
-            <a href="connexion.html"><button class="btncoin">Se connecter</button></a>
-            <a href="inscription.html"><button class="btncoin">S'nscrire</button></a></div></span><br>
-        <nav>
-            <div>
-        <a href="accueil.html" id="navi"><button>Accueil</button></a>
-            <a href=""></a><button>Blogs</button>
-            <a href=""></a><button>Profils</button>
-            <a href=""></a><button>Chat</button>
-            <a href=""></a><button>Plus</button>
+        <div class="logo">
+          <a title="Le Hit Machine" href="accueil.html"
+            ><img
+              class="logo"
+              src="/Img/logo.png"
+              alt="Logo Hit Machine"
+              id="logacc"
+          /></a>
+  
+          <meta itemprop="name" content="Le Hit Machine" />
         </div>
-        <form action="accueil.html" id="form" method="get" itemprop="potentialAction">
-            <meta itemprop="target" content="accueil.html/?s={query}">
-            <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search" name="s" autocomplete="off">
-            <button type="submit" id="search">Recherche</button>
+  
+        <div class="btn_switch">
+          <item class="switch"
+            ><button class="btn_lnd">light/dark switch</button>
+          </item>
+  
+          <item
+            ><a href="connexion.html"
+              ><button class="caclasse">Se connecter</button></a
+            ></item
+          >
+          <item
+            ><a href="inscription.html"
+              ><button class="caclasse">S'nscrire</button></a
+            ></item
+          >
+        </div>
+      </header>
+
+      <nav>
+        <div class="btn_nav">
+          <a href="accueil.html" id="navi"><button>Accueil</button></a>
+          <a href=""><button>Blogs</button></a>
+          <a href=""><button>Profils</button></a>
+          <a href=""><button>Chat</button></a>
+          <a href="" hover><button>Plus</button></a>
+        </div>
+        <form
+          class="searchbar"
+          action="accueil.html"
+          id="form"
+          method="get"
+          itemprop="potentialAction"
+        >
+          <meta itemprop="target" content="accueil.html/?s={query}" />
+          <input
+            id="s"
+            itemprop="query-input"
+            class="search-live"
+            type="text"
+            placeholder="Recherche"
+            name="s"
+            autocomplete="off"
+          />
+          <button type="submit" id="search">Recherche</button>
         </form>
-        
-        </nav>
-    </header>
+      </nav>
+
      <main>   
     <section>
         <h1>Contact</h1>
@@ -59,13 +94,17 @@
 
 
 </main> 
-<footer>
-    <a href="contact.html">Contactez-nous</a>
-    <a href="CGU.text" target="_blank">CGU</a>
-    <a href="signaleBug.html">Signaler un bug</a>
-    <a href="soutient.html">Soutenez-nous </a>
-    <span><a href="français.html">Français</a> | <a href="anglais.html">Anglais</a> | <a href="leet.html">LEET</a></span>
-</footer>
+<footer class="footer">
+    <a href="contact.html"><button>Contactez-nous</button></a>
+    <a href="CGU.text" target="_blank"><button>CGU</button></a>
+    <a href="signalbug.html"><button>Signaler un bug</button></a>
+    <a href="soutient.html"><button>Soutenez-nous</button></a>
+    <span
+      ><a href="français.html"><button>Français</button></a>
+      <a href="anglais.html"><button>Anglais</button></a>
+      <a href="leet.html"><button>LEET</button></a></span
+    >
+  </footer>
 
     
 </body>
