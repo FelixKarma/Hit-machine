@@ -168,7 +168,12 @@ position: sticky;
   -webkit-text-fill-color: transparent;
 }
 
-
+.imggrp{
+  max-height: 400px;
+}
+.selectsp{
+  padding: 30px;
+}
 
 
 /* FOOTER */
