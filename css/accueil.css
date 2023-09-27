@@ -167,6 +167,8 @@ figure {
 }
 
 .divami {
+  box-sizing: border-box;
+  border: 4px solid gray;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -179,6 +181,10 @@ h4 {
 .imgProf {
   width: 20%;
   margin: 3px;
+}
+
+.hrami{
+  border: 2px solid gray;
 }
 
 #pvert {
