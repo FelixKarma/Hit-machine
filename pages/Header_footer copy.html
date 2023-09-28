@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/inscription.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="/Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
+      </div>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item
+          ><a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          ></item
+        >
+        <item
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="btn_nav">
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
+      </div>
+      <form
+        class="searchbar"
+        action="accueil.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
+      </form>
+    </nav>
+
+    <!-- MAIN -->
+
+    <main>
+      <!-- <img src="/Img/pub/covoiturage.jpg" alt="pub" id="pub1">
+      <img src="/Img/pub/perrier.jpg" alt="pub" id="pub2">
+      <img src="/Img/pub/finduus.jpg" alt="pub" id="pub3"> -->
+      <section>
+        <article class="article">
+          <nav class="htitre">
+            <h1 class="gtitre">Inscription</h1>
+          </nav>
+          <br />
+          <!-- Formulaire D'inscription -->
+          <form action="connexion.html" method="post" class="formins">
+            <h4>Identifiants et paramètres de connexion</h4>
+            <table>
+              <tr>
+                <td>Ton Blaze:<span>*</span></td>
+                <td>
+                  <label for="pseudo"
+                    ><input
+                      type="text"
+                      name="pseudo"
+                      placeholder="Pseudo"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Email<span>*</span></td>
+                <td>
+                  <label for="email"
+                    ><input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="email@mail.mail"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Retape ton Email<span>*</span></td>
+                <td>
+                  <label for="email2"
+                    ><input
+                      type="email"
+                      name="email2"
+                      id="email2"
+                      placeholder="email@mail.mail"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton mot de passe<span>*</span></td>
+                <td>
+                  <label for="mdp"
+                    ><input type="password" name="mdp" id="mdp" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Retape ton mot de passe<span>*</span></td>
+                <td>
+                  <label for="mdp2"
+                    ><input type="password" name="mdp2" id="mdp2" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="langue">Langue:</label></td>
+                <td>
+                  <label for="langue"
+                    ><select name="langue" id="langue" required>
+                      <option value="fr">Français</option>
+                      <option value="eng">Anglais</option>
+                      <option value="leet">Leet</option>
+                    </select></label
+                  >
+                </td>
+              </tr>
+            </table>
+            <h4>Tes informations privées:</h4>
+            <table>
+              <tr>
+                <td>Tu es:</td>
+                <td>
+                  <label for="sexe"
+                    >Un Mec<input type="radio" name="sexe" id="sexe" required
+                  /></label>
+                </td>
+                <td>
+                  <label for="sexe2"
+                    >Une Gonzesse<input type="radio" name="sexe" id="sexe2"
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Prénom:<span>*</span></td>
+                <td>
+                  <label for="pnom"
+                    ><input
+                      type="text"
+                      name="pnom"
+                      id="pnom"
+                      placeholder="Ex: Kevin,Jennifer,Dylan,..."
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ton Nom:<span>*</span></td>
+                <td>
+                  <label for="nom"
+                    ><input type="text" name="nom" id="nom" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ta date de naissance:<span>*</span></td>
+                <td>
+                  <label for="daten"
+                    ><input
+                      type="date"
+                      name="daten"
+                      id="daten"
+                      max="09/13/2023"
+                      required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Pays:<span>*</span></td>
+                <td>
+                  <label for="pays"
+                    ><input type="text" name="pays" id="pays" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Ville:<span>*</span></td>
+                <td>
+                  <label for="Ville"
+                    ><input type="text" name="Ville" id="Ville" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Tel Mobile:<span>*</span></td>
+                <td>
+                  <label for="telm"
+                    ><input type="tel" name="telm" id="telm" required
+                  /></label>
+                </td>
+              </tr>
+              <tr>
+                <td>Tel Fixe:<span>*</span></td>
+                <td>
+                  <label for="telf"
+                    ><input type="tel" name="telf" id="telf" required
+                  /></label>
+                </td>
+              </tr>
+            </table>
+            <button type="submit" class="btncentre">S'inscrire !</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <a href="contact.html"><button>Contactez-nous</button></a>
+      <a href="CGU.text" target="_blank"><button>CGU</button></a>
+      <a href="signalbug.html"><button>Signaler un bug</button></a>
+      <a href="soutient.html"><button>Soutenez-nous</button></a>
+      <span
+        ><a href="français.html"><button>Français</button></a>
+        <a href="anglais.html"><button>Anglais</button></a>
+        <a href="leet.html"><button>LEET</button></a></span
+      >
+    </footer>
+  </body>
+</html>
