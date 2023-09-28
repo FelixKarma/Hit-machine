@@ -21,7 +21,7 @@ let mus2 = new musics(
     "It Went",
     "S3RL ft Tamika",
     "Hardcore",
-    "Img/profiljosh/imgitwent.jpg",
+    "/Img/profiljosh/imgitwent.jpg",
     "/audio/ItWent.mp3"
 );
 
@@ -29,7 +29,7 @@ let mus3 = new musics(
     "Substitution",
     "Purple Machine Disco et Kungs",
     "Electro Music",
-    "Img/profiljosh/imgsubstitution.jpg",
+    "/Img/profiljosh/imgsubstitution.jpg",
     "/audio/Substitution.mp3"
 );
 
@@ -60,7 +60,7 @@ function setMusics(groups) {
             document.getElementById("mimg").alt  = mus2.music_name;
             document.getElementById("music_audio").src = mus2.music_audio;
             }
-                else{
+                else if (groups == "mus3") { 
                     document.getElementById("mname").innerHTML = mus3.music_name;
                     document.getElementById("aname").innerHTML = mus3.artist;
                     document.getElementById("genre").innerHTML = mus3.genre;

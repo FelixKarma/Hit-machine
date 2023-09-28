@@ -7,7 +7,7 @@
 
 body {
     margin: 0px;
-    background-image: url(/Img/bgndprof.jpg);
+    background-image: url(/Img/profiljosh/bgndprof.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -90,6 +90,10 @@ main{
   flex: 1;
 }
 
+#groups{
+  align-self: center;
+  width: auto;
+}
 
 hr{
   border: 2px solid black;
@@ -109,7 +113,7 @@ h1{
  .htitre {
     background-color: #0074d9;
     padding-left: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     padding-right: 2%;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -194,7 +198,8 @@ h4{
 }
 
 .music_img {
-  width: 400px;
+ height: 400px;
+ width: 650px;
 }
 
 footer {
