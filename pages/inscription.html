@@ -1,74 +1,85 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/inscription.css" />
-    <script src="https://kit.fontawesome.com/fb5a705aa1.js" crossorigin="anonymous"></script>
-    <title>Le Hit Machine</title>
+    <link rel="stylesheet" href="../css/inscription.css" />
+    <title>Document</title>
   </head>
   <body>
+    <!-- HEADER -->
+
     <header>
-      <span class="header">
-      <a href="accueil.html"
-        ><img class="logo" src="/Img/logo.png" alt="Logo Hit Machine"
-      /></a>
-      <div class="btncont">
-        <div class="bcon">
-          <a href="connexion.html"
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="/Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
+      </div>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item
+          ><a href="connexion.html"
             ><button class="caclasse">Se connecter</button></a
-          >
-        </div>
-        <div class="bins">
-          <a href="inscription.html"
-            ><button class="caclasse">S'inscrire</button></a
-          >
-        </div>
+          ></item
+        >
+        <item
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
       </div>
-    </span>
-      <br>
-  <nav>
-      <div class="soushead">
-        <nav class="sh2">
-          <a href="accueil.html" id="navi"
-            ><button class="txtxxl">Accueil</button></a
-          >
-          <a href=""></a><button class="txtxxl">Blogs</button> <a href=""></a
-          ><button class="txtxxl">Profils</button> <a href=""></a
-          ><button class="txtxxl">Chat</button> <a href="" hover></a
-          ><button class="txtxxl">Plus</button>
-        </nav>
-        <div class="shform1">
-          <form
-            class="shform"
-            action="accueil.html"
-            id="form"
-            method="get"
-            itemprop="potentialAction"
-          >
-            <meta itemprop="target" content="accueil.html/?s={query}" />
-            <input
-              id="s"
-              itemprop="query-input"
-              class="centrer"
-              type="text"
-              placeholder="Search"
-              name="s"
-              autocomplete="off"
-            />
-            <button type="submit" id="search"><i class="fa-solid fa-magnifying-glass" style="color: lightgray;"></i></button>
-          </form>
-        </div>
-      </div>
-    </nav>
     </header>
+
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="btn_nav">
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
+      </div>
+      <form
+        class="searchbar"
+        action="accueil.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
+      </form>
+    </nav>
+
+    <!-- MAIN -->
+
     <main>
-      
-      <img src="/Img/pub/covoiturage.jpg" alt="pub" id="pub1">
-      <img src="/Img/pub/perrier.jpg" alt="pub" id="pub2">
-      <img src="/Img/pub/finduus.jpg" alt="pub" id="pub3">
-      <section>
-        <article class="article">
+      <section class="container2">
+        <div class="pubs">
+          <img src="/Img/pub/covoiturage.jpg" alt="pub" id="pub1" />
+          <img src="/Img/pub/perrier.jpg" alt="pub" id="pub2" />
+        </div>
+        <div class="article">
           <nav class="htitre">
             <h1 class="gtitre">Inscription</h1>
           </nav>
@@ -88,6 +99,9 @@
                       required
                   /></label>
                 </td>
+              </tr>
+              <tr>
+                <br />
               </tr>
               <tr>
                 <td>Ton Email<span>*</span></td>
@@ -144,7 +158,9 @@
                 </td>
               </tr>
             </table>
+            <br>
             <h4>Tes informations privées:</h4>
+            <br>
             <table>
               <tr>
                 <td>Tu es:</td>
@@ -228,14 +244,25 @@
             </table>
             <button type="submit" class="btncentre">S'inscrire !</button>
           </form>
-        </article>
+        </div>
+        <div class="pubs2">
+          <img src="/Img/pub/finduus.jpg" alt="pub" id="pub3" />
+        </div>
       </section>
     </main>
-    <footer>
-      <a href="contact.html">Contactez-nous</a>
-      <a href="CGU.html">CGU</a>
-      <a href="signaleBug.html">Signaler un bug</a>
-      <a href="soutient.html">Soutenez-nous</a>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <a href="contact.html"><button>Contactez-nous</button></a>
+      <a href="CGU.text" target="_blank"><button>CGU</button></a>
+      <a href="signalbug.html"><button>Signaler un bug</button></a>
+      <a href="soutient.html"><button>Soutenez-nous</button></a>
+      <span
+        ><a href="français.html"><button>Français</button></a>
+        <a href="anglais.html"><button>Anglais</button></a>
+        <a href="leet.html"><button>LEET</button></a></span
+      >
     </footer>
   </body>
 </html>
