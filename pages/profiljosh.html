@@ -77,7 +77,7 @@
                 <nav class="htitre">
                     <h1 class="gtitre">Profil</h1></nav>
                      <h4><b><em><u>EleKdONnfZik</u></em></b></h4>
-                     <img src="../Img/imgprof.jpg" alt="image profiljosh" id="imgprof"><br>
+                     <img src="../Img/profiljosh/imgprof.jpg" alt="image profiljosh" id="imgprof"><br>
                    <br><hr>
                    <p>Hello le monde, <br>
                   Ici sur le blog creer par le grand EleKdONnfZik,<br>
@@ -94,17 +94,25 @@
             </article>
             <article id="prof2">
                 <nav class="htitre">
-                    <h1 class="gtitre">Mes poste</h1></nav>
-                    <h3>Astronomia</h3>
-                <figure>
-                 <video src="/vidéos/Astronomia.mp4" controls ></video>
+                    <h1 class="gtitre">Mes poste</h1>
+                    <select name="groups" id="groups">
+                      <option value="mus1" onclick="setMusics('mus1')">Astronomia</option>
+                      <option value="mus2" onclick="setMusics('mus2')">It Went</option>
+                      <option value="mus3" onclick="setMusic('mus3')">Substitution</option>
+
+
+                    </select></nav>
                     
-                </figure>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ratione nihil ipsa laborum fugit. Laudantium sit voluptates aut dolor suscipit quis explicabo possimus vero magnam. Consequatur ad sunt provident asperiores.
-                </p>
-                <figure>
-                <button id="btnlik"><img src="/Img/bouton_like.png" alt="Bouton like" id="icoLike"></button>
-                <button id="btncom"><img src="/Img/bouton_commente.png" alt="Bouton Commente" id="icoCom"></button></figure>
+                    <div class="post">
+                      <h2 class="song_name" id="mname">song_name</h2>
+                      <p class="artist_name" id="aname">artist_name</p>
+                      <p class="genre" id="genre">genre</p>
+                      <img id="mimg" class="music_img" src="" alt="Logo"><br>
+                      <audio class="music_audio" src="music_audio" id="music_audio" controls></audio>
+                    </div>
+                  
+                <button id="btnlik"><img src="/Img/profiljosh/bouton_like.png" alt="Bouton like" id="icoLike"></button>
+                <button id="btncom"><img src="/Img/profiljosh/bouton_commente.png" alt="Bouton Commente" id="icoCom"></button>
             </article>
 
             <article id="prof3">
@@ -119,7 +127,8 @@
                       ??? Commentaires <br>
                       ??? Amis <br>
                       ??? Favoris
-                    </p>
+                    </p><hr>
+
             </div><br><br>
             </article>
         </section>
@@ -136,6 +145,6 @@
           <a href="leet.html"><button>LEET</button></a></span
         >
       </footer>
-
-</body>
+      
+</body><script src="../Js/profiljosh.js"></script>
 </html>
