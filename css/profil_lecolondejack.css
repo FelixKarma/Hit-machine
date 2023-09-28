@@ -14,7 +14,6 @@ main {
   flex-flow: column nowrap;
   align-items: center;
   height: fit-content;
-  
 }
 
 .post {
@@ -48,8 +47,18 @@ main {
   margin-bottom: 10px;
 }
 
-h3 {
-  margin-top: 15px;
+.fav {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.href {
+  text-decoration: none;
+  color: chartreuse;
+}
+
+.href:hover {
 }
 
 .sidebar h4 {

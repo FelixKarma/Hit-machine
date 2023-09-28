@@ -3,43 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/Header_footer.css" />
     <link rel="stylesheet" href="/css/connexion.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Page de connexion</title>
   </head>
   <body>
-    <header>
-      <div>
-        <a href="accueil.html"
-          ><img src="/Img/logo.png " alt="Logo Hit Machine"
-        /></a>
-        <button>light/dark switch</button>
-        <a href="connexion.html"><button>Se connecter</button></a>
-        <a href="inscription.html"><button>S'nscrire</button></a>
-      </div>
-      <nav>
-        <div>
-          <a href="accueil.html"><button>Accueil</button></a> <a href=""></a
-          ><button>Blogs</button> <a href=""></a><button>Profils</button>
-          <a href=""></a><button>Chat</button> <a href=""></a
-          ><button>Plus</button>
-        </div>
-        <div>
-          <form>
-            <input
-              type="search"
-              name="recherche"
-              id="recherche"
-              placeholder="Rechercher"
-            />
-          </form>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <h1>Se Connecter</h1>
+    <!-- HEADER -->
 
+    <header>
+      <div class="logo">
+        <a title="Le Hit Machine" href="accueil.html"
+          ><img
+            class="logo"
+            src="../Img/logo.png"
+            alt="Logo Hit Machine"
+            id="logacc"
+        /></a>
+
+        <meta itemprop="name" content="Le Hit Machine" />
+      </div>
+
+      <div class="btn_switch">
+        <item class="switch"
+          ><button class="btn_lnd">light/dark switch</button>
+        </item>
+
+        <item
+          ><a href="connexion.html"
+            ><button class="caclasse">Se connecter</button></a
+          ></item
+        >
+        <item
+          ><a href="inscription.html"
+            ><button class="caclasse">S'nscrire</button></a
+          ></item
+        >
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="btn_nav">
+        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href=""><button>Blogs</button></a>
+        <a href=""><button>Profils</button></a>
+        <a href=""><button>Chat</button></a>
+        <a href="" hover><button>Plus</button></a>
+      </div>
+      <form
+        class="searchbar"
+        action="accueil.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
+      </form>
+    </nav>
+
+    <main>
+      
       <div class="sections">
         <section id="section1" class="btn_1">
           <i class="fa fa-hand-o-right" style="font-size: 50px;" aria-hidden="true"></i>
@@ -103,11 +138,18 @@
         </section>
       </div>
     </main>
-    <footer>
-      <a href="contact.html">Contactez-nous</a>
-      <a href="CGU.text" target="_blank">CGU</a>
-      <a href="signaleBug.html">Signaler un bug</a>
-      <a href="soutient.html">Soutenez-nous </a>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <a href="contact.html"><button>Contactez-nous</button></a>
+      <a href="CGU.text" target="_blank"><button>CGU</button></a>
+      <a href="signalbug.html"><button>Signaler un bug</button></a>
+      <a href="soutient.html"><button>Soutenez-nous</button></a>
+      <span
+        ><a href="français.html"><button>Français</button></a>
+        <a href="anglais.html"><button>Anglais</button></a>
+        <a href="leet.html"><button>LEET</button></a></span
+      >
     </footer>
   </body>
 </html>
