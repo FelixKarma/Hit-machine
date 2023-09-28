@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/Header_footer.css" />
     <link rel="stylesheet" href="/css/connexion.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Page de connexion</title>
   </head>
   <body>
@@ -74,52 +77,76 @@
     </nav>
 
     <main>
-      
       <div class="sections">
         <section id="section1" class="btn_1">
-          <i class="fa fa-hand-o-right" style="font-size: 50px;" aria-hidden="true"></i>
+          <i
+            class="fa fa-hand-o-right"
+            style="font-size: 50px"
+            aria-hidden="true"
+          ></i>
 
           <a href="inscription.html"
-            ><button class="btn_inscription">Inscris-toi !</button></a>
-            <i class="fa fa-hand-o-left" style="font-size: 50px;" aria-hidden="true"></i>
-
-          
+            ><button class="btn_inscription">Inscris-toi !</button></a
+          >
+          <i
+            class="fa fa-hand-o-left"
+            style="font-size: 50px"
+            aria-hidden="true"
+          ></i>
         </section>
         <section id="section2">
           <form action="#" method="get">
-            <i class="fa fa-arrow-circle-o-right" style="font-size: 24px;" aria-hidden="true"></i>
-
+            <i
+              class="fa fa-arrow-circle-o-right"
+              style="font-size: 24px"
+              aria-hidden="true"
+            ></i>
 
             <label class="label_font" for="identifiants">Déja inscrit ?</label>
             <br /><br />
 
             <article>
-              <label for="pseudo">Pseudo :</label>
-              <input
-                type="text"
-                name="pseudo"
-                id="pseudo"
-                value=""
-                placeholder="Diablox9"
-                required
-              /><br /><br />
-              <label for="mdp">Mot de passe :</label>
-              <input
-                type="password"
-                name="mdp"
-                id="mdp"
-                value=""
-                placeholder="/\\/\\07|)3|D4553"
-                required
-              /><br /><br />
-              <a href="mdpoublié.html">Mot de passe oublié ?</a><br /><br />
-              <input type="submit" value="Connexion" />
+              <table>
+                <tr>
+                  <td><label for="pseudo">Pseudo :</label></td>
+                  <td>
+                    <input
+                      type="text"
+                      name="pseudo"
+                      id="pseudo"
+                      value=""
+                      placeholder="Diablox9"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="mdp">Mot de passe :</label></td>
+                  <td>
+                    <input
+                      type="password"
+                      name="mdp"
+                      id="mdp"
+                      value=""
+                      placeholder="/\\/\\07|)3|D4553"
+                      required
+                    />
+                  </td>
+                </tr>
+              </table>
+
+              <a class="mdpo" href="mdpoublié.html">Mot de passe oublié ?</a><br /><br />
+              <input class="btn_co" type="submit" value="Connexion" />
             </article>
           </form>
         </section>
 
         <section id="section3">
-          <i class="fa fa-info-circle" style="font-size: 24px;" aria-hidden="true"></i>
+          <i
+            class="fa fa-info-circle"
+            style="font-size: 24px"
+            aria-hidden="true"
+          ></i>
 
           <p class="p1">Inscris-toi en 2 minutes et :</p>
           <br />
