@@ -2,15 +2,7 @@ body {
   margin: 0;
 }
 
-#background-video {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-#background-video2 {
-}
 
 .container {
   display: flex;
@@ -19,5 +11,12 @@ body {
   justify-content: space-between;
 }
 
-video {
+main {
+  
+  background-image: url();
+  
+ 
+  
+  
 }
+
