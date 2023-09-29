@@ -33,6 +33,22 @@ let mus3 = new musics(
     "/audio/Substitution.mp3"
 );
 
+let mus4 = new musics(
+    "Bye Bye Bye",
+    "Marnik, LUNAX",
+    "Electro House",
+    "/Img/profiljosh/imgbye.jpg",
+    "/audio/ByeByeBye.mp3"
+);
+
+let mus5 = new musics(
+    "Here We Go Again",
+    "Oliver Tree & David Guetta",
+    "Pop music",
+    "/Img/profiljosh/HWGA.jpg",
+    "/audio/HereWeGoAgain.mp3"
+);
+
 
 
 document.getElementById("mname").innerHTML = mus1.music_name;
@@ -68,4 +84,20 @@ function setMusics(groups) {
                     document.getElementById("mimg").alt  = mus3.music_name;
                     document.getElementById("music_audio").src = mus3.music_audio;
             }
+                    else if (groups == "mus4") {
+                        document.getElementById("mname").innerHTML = mus4.music_name;
+                        document.getElementById("aname").innerHTML = mus4.artist;
+                        document.getElementById("genre").innerHTML = mus4.genre;
+                        document.getElementById("mimg").src  = mus4.music_img;
+                        document.getElementById("mimg").alt  = mus4.music_name;
+                        document.getElementById("music_audio").src = mus4.music_audio;
+                    }
+                        else if (groups == "mus5") {
+                            document.getElementById("mname").innerHTML = mus5.music_name;
+                            document.getElementById("aname").innerHTML = mus5.artist;
+                            document.getElementById("genre").innerHTML = mus5.genre;
+                            document.getElementById("mimg").src  = mus5.music_img;
+                            document.getElementById("mimg").alt  = mus5.music_name;
+                            document.getElementById("music_audio").src = mus5.music_audio;
+                        }
 }
