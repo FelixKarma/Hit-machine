@@ -37,20 +37,36 @@ main {
   margin: 20px;
 }
 
+.mrg_top_10 {
+  margin-top: 10px;
+}
+
 .bor_rad_10 {
   border-radius: 10px;
 }
 
+.separator {
+  margin: 20px;
+  height: 10px;
+  width: 200px;
+  background: #111;
+}
+
+.separator_2 {
+  margin: 10px 0px 10px 0px;
+  height: 5px;
+  width: 300px;
+  background: #111;
+}
+
 .pp {
-  width: 100px;
-  margin-top: 20px;
+  width: 125px;
   margin-bottom: 10px;
 }
 
 .fav {
   display: flex;
   flex-direction: column;
-  
 }
 
 .href {
@@ -72,6 +88,9 @@ main {
   align-items: center;
 }
 
+.band_name {
+}
+
 .band_logo {
   width: 400px;
 }
@@ -79,4 +98,8 @@ main {
 .band_description {
   padding: 0px 20px 0px 20px;
   margin: 20px 0px 20px 0px;
+}
+
+.p_genre {
+  font-style: italic;
 }
