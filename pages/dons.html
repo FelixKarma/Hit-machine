@@ -78,22 +78,23 @@
         <h1>Soutiens mon Blog !</h1>
         <div class="separator"></div>
         <div class="container">
-          <form action="#" method="get">
+          <form action="https://www.paypal.com/fr/home" method="get">
             <label for="10">10 €</label>
-            <input type="radio" id="10" name="dons" required /><br />Merci pour le
+            <input type="radio" id="10" name="dons" required onclick="clickRadio()" /><br />Merci pour le
             grec ! <br /><br />
             <label for="100">100 €</label>
-            <input type="radio" id="100" name="dons" /><br />Tu régales !
+            <input type="radio" id="100" name="dons" onclick="clickRadio()"/><br />Tu régales !
             <br /><br />
             <label for="1000">1 000 €</label>
-            <input type="radio" id="1000" name="dons" /><br />Grand Seigneur
+            <input type="radio" id="1000" name="dons" onclick="clickRadio()"/><br />Grand Seigneur
             <br /><br />
   
-            <input class="btn_don" type="submit" name="dons" value="Claquer mon RSA" />
-          </form>
+            <div id="my-div" ><input  class="btn_don" type="submit" name="dons" value="Claquer mon RSA" />
+         </div> </form>
         </div>
         <p class="p1"  >Me contacter en MP pour les dons en Crypto.</p>
       </div>
+      
     </main>
 
     <!-- FOOTER -->
@@ -107,5 +108,6 @@
         ><a href="français.html"><button>Français</button></a>
         <a href="anglais.html"><button>Anglais</button></a>
         <a href="leet.html"><button>LEET</button></a></span>
+        <script src="../Js/dons.js"></script>
   </body>
 </html>
