@@ -1,18 +1,9 @@
 const radioButtons = document.querySelectorAll('input[name="dons"]');
 
-
 for (const radioButton of radioButtons) {
-    if (radioButton!=radioButton.checked) {
-document.getElementById("my-div").style.visibility='hidden';
-    }
-}
-
-    
-
-
-
-for (const radioButton of radioButtons) {
-  if (radioButton.checked) {
+  if (radioButton != radioButton.checked) {
+    document.getElementById("my-div").style.visibility = "hidden";
+  } else {
     let myDiv = document.getElementById("my-div");
 
     const move = (e) => {
@@ -35,24 +26,20 @@ for (const radioButton of radioButtons) {
     //   move(e);
     // });
   }
-    
-  
 }
 
 //Detect touch device
-function isTouchDevice() {
-  try {
-    //We try to create TouchEvent. It would fail for desktops and throw error
-    document.createEvent("TouchEvent");
+// function isTouchDevice() {
+//   try {
+//     //We try to create TouchEvent. It would fail for desktops and throw error
+//     document.createEvent("TouchEvent");
 
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
+//     return true;
+//   } catch (e) {
+//     return false;
+//   }
+// }
 
 function clickRadio() {
   document.location.reload();
 }
-
-
