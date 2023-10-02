@@ -121,10 +121,12 @@ nav {
   padding-left: 45%;
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
-  color: white;
+  color: #fffcf2;
 }
 .htitre {
   background-color: #0074d9;
+  margin-bottom: 1vh;
+  padding-bottom: 1vh;
   width: 100%;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -159,26 +161,31 @@ form {
   padding-right: 1%;
   padding-left: 1%;
 }
-.container2{
+.container2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   /* justify-content: space-evenly; */
 }
-.pubs{
+.mec:hover {
+  color: #fffcf2;
+}
+.meuf:hover {
+  color: #fffcf2;
+}
+.pubs {
   display: flex;
   flex-direction: column-reverse;
   width: 15%;
   margin: auto;
   padding: 2%;
 }
-.pubs2{
+.pubs2 {
   display: flex;
   flex-direction: column;
   width: 15%;
   padding: 2%;
 }
-
 
 /* FOOTER */
 
