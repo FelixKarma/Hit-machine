@@ -41,12 +41,32 @@ main {
   margin-top: 10px;
 }
 
+.mrg_bot_20 {
+  margin-bottom: 20px;
+}
+
+.mrg_l_10 {
+  margin-left: 10px;
+}
+
 .bor_rad_10 {
   border-radius: 10px;
 }
 
+.pad_lr_15 {
+  padding: 0px 15px 0px 15px;
+}
+
 .pad_r_15 {
   padding-right: 15px;
+}
+
+.txt_dec {
+  text-decoration: underline;
+}
+
+.txt_dec_no {
+  text-decoration: none;
 }
 
 .separator {
@@ -88,7 +108,11 @@ main {
 
 .href {
   text-decoration: none;
-  color: chartreuse;
+  color: #2e3194;
+}
+
+.href1 {
+  color: #222;
 }
 
 .href:hover {
