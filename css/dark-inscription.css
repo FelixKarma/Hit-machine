@@ -96,20 +96,50 @@ nav {
   background-color: #252422;
 }
 
-.dropdown{
-  
+/* Bouton Dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
 .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  background-color: #4b4743;
+  border: 2px;
+  width: 75px;
+  height: 30px;
+  flex: 1;
+  text-align: center;
 }
 
-.dropctn{
+.dropbtn:hover {
+  background-color: #222;
+  color: #fffcf2;
+}
 
+.dropctn {
+  display: none;
+  position: absolute;
+  background-color: #a0a0a0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropctn a {
+  color: #fffcf2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropctn a:hover {
+  background-color: #403d39;
+}
+
+.dropdown:hover .dropctn {
+  display: block;
+  background-color: #222;
 }
 
 .searchbar {
@@ -125,11 +155,13 @@ nav {
 #pub1 {
   padding-top: 10%;
 }
+
 /* #pub2 {
   } */
 /* #pub3 {
   height: 80%;
 } */
+
 .gtitre {
   text-align: center;
   font-size: x-large;
@@ -139,6 +171,7 @@ nav {
   border-top-left-radius: 2rem;
   color: white;
 }
+
 .htitre {
   background-color: #eb5e28;
   width: 100%;
@@ -147,9 +180,11 @@ nav {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
+
 .formins {
   padding-left: 30px;
 }
+
 .article {
   background-image: linear-gradient(#403d39, #696969);
   display: flex;
@@ -165,6 +200,7 @@ nav {
   border: double 4px;
   border-color: #ccc5b9;
 }
+
 /* .btncentre {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -173,35 +209,43 @@ main {
   flex: 1;
   padding-top: 4%;
 }
+
 form {
   padding-right: 1%;
   padding-left: 1%;
 }
+
 .container2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   /* justify-content: space-evenly; */
 }
+
 .container2 h4 {
   color: #fffcf2;
   text-decoration: underline;
   text-decoration-color: #780000;
   text-underline-offset: 4px;
 }
+
 .mec:hover {
   color: #fffcf2;
 }
+
 .meuf:hover {
   color: #fffcf2;
 }
+
 .container2 td {
   color: #fffcf2;
 }
+
 .sexe,
 .sexe2 {
   outline-color: #eb5e28;
 }
+
 .pubs {
   display: flex;
   flex-direction: column-reverse;
@@ -209,6 +253,7 @@ form {
   margin: auto;
   padding: 2%;
 }
+
 .pubs2 {
   display: flex;
   flex-direction: column;

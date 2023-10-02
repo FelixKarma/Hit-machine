@@ -14,9 +14,11 @@ body {
   flex-direction: column;
   background-color: #474747;
 }
+
 span {
   color: #ffc700;
 }
+
 td {
   padding-right: 20px;
 }
@@ -98,39 +100,48 @@ nav {
 
 /* Bouton Dropdown */
 
-.dropdown{
+.dropdown {
   position: relative;
   display: inline-block;
 }
 
 .dropbtn {
   background-color: #a0a0a0;
-  border: none;
+  border: 2px;
   width: 75px;
   height: 30px;
   flex: 1;
   text-align: center;
 }
-.dropctn{
+
+.dropbtn:hover {
+  background-color: #222;
+  color: #fffcf2;
+}
+
+.dropctn {
   display: none;
   position: absolute;
   background-color: #a0a0a0;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-.dropctn a{
-  color: black;
+
+.dropctn a {
+  color: #fffcf2;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
+
+.dropctn a:hover {
+  background-color: #403d39;
+}
+
 .dropdown:hover .dropctn {
   display: block;
-  background-color: #474747;
-}
-.dropdown:hover .dropctn:hover {
-  background-color: #403d39;
+  background-color: #222;
 }
 
 .searchbar {
@@ -160,6 +171,7 @@ nav {
   border-top-left-radius: 2rem;
   color: #fffcf2;
 }
+
 .htitre {
   background-color: #0074d9;
   margin-bottom: 1vh;
@@ -168,9 +180,11 @@ nav {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
+
 .formins {
   padding-left: 30px;
 }
+
 .article {
   background-image: linear-gradient(white, #474747);
   display: flex;
@@ -186,30 +200,37 @@ nav {
   border: double 4px;
   border-color: #849fff;
 }
+
 /* .btncentre {
   margin-left: 50%;
   transform: translateX(-50%);
 } */
+
 main {
   flex: 1;
   padding-top: 4%;
 }
+
 form {
   padding-right: 1%;
   padding-left: 1%;
 }
+
 .container2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   /* justify-content: space-evenly; */
 }
+
 .mec:hover {
   color: #fffcf2;
 }
+
 .meuf:hover {
   color: #fffcf2;
 }
+
 .pubs {
   display: flex;
   flex-direction: column-reverse;
@@ -217,6 +238,7 @@ form {
   margin: auto;
   padding: 2%;
 }
+
 .pubs2 {
   display: flex;
   flex-direction: column;
