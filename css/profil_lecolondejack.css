@@ -27,6 +27,7 @@ main {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  height: fit-content;
 }
 
 .mrg_10 {
@@ -67,6 +68,12 @@ main {
 
 .txt_dec_no {
   text-decoration: none;
+}
+
+.img_ba {
+  width: 280px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .separator {

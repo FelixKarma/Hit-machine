@@ -31,7 +31,7 @@ let grp1 = new band(
 let grp2 = new band(
   "Midnight",
   "Black'n'Roll",
-  "/Img/profil_colon/bands/midnight.jpg",
+  "/Img/profil_colon/bands/midnight2.png",
   "Midnight est un groupe de Black n' Roll/Speed Metal rappelant Motorhead, Venom ou Bathory venu de Cleveland, Ohio. Fondé en 2003 comme un projet solo par Athenar sans autre ambition que de sortir quelques EPs, le one-man band s'étoffe d'un batteur (SS) et d'un guitariste (Commandor Vanik) pour les concerts. Un premier opus remarqué, Satanic Royalty, sort chez Hells Headbangers Records en 2011 tandis que son successeur No Mercy For Mayhem (titre hommage à Venom) paraît trois ans plus tard dans la même écurie. En 2017, c'est l'EP Shox Of Violence (agrémenté de live et de nombreuses reprises) qui est annoncé pour le début d'année. ",
   "Titre : 'You can't stop steel'",
   "/audio/You Can't Stop Steel.mp3",
