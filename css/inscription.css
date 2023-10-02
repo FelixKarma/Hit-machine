@@ -96,6 +96,43 @@ nav {
   background-color: #222;
 }
 
+/* Bouton Dropdown */
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #a0a0a0;
+  border: none;
+  width: 75px;
+  height: 30px;
+  flex: 1;
+  text-align: center;
+}
+.dropctn{
+  display: none;
+  position: absolute;
+  background-color: #a0a0a0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropctn a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropctn {
+  display: block;
+  background-color: #474747;
+}
+.dropdown:hover .dropctn:hover {
+  background-color: #403d39;
+}
+
 .searchbar {
   flex: 1;
   display: flex;
