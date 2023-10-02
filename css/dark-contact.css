@@ -4,16 +4,14 @@
     padding: 0;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
-  
+
   body {
     height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    margin: 0px;
-    background-image: url(../Img/imgmatrix.jpg);
   }
-  
+
   header {
     display: flex;
     flex-direction: row;
@@ -54,7 +52,7 @@
     color: #222;
     background-color: white;
   }
-  
+
   nav {
     background: #a0a0a0;
     display: flex;
@@ -87,14 +85,58 @@
     align-items: center;
     margin: 0px 10px 0px 10px;
   }
-  
-  main {
-    color: white;
+
+main{
     flex: 1;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
-  }
-  
-  footer {
+    background-color: black;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.seccont{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+}
+
+
+#icon{
+    width: 9%;
+}
+
+#icomai{
+    width: 5%;
+}
+
+#icotel{
+    width: 7%;
+}
+
+#spacont1{
+  box-sizing: content-box;
+  border-right: 2px solid white;
+}
+
+#spacont2{
+  box-sizing: content-box;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+#spacont3{
+  box-sizing: border-box;
+  border-left: 2px solid white;
+}
+
+footer {
     background-color: #222;
     height: 40px;
     display: flex;

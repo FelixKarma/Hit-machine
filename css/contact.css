@@ -89,7 +89,7 @@
 main{
     flex: 1;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: center;  
+    text-align: center;
 
 }
 
@@ -97,10 +97,12 @@ h1{
     text-align: center;
 }
 
+
+
 .seccont{
   display: flex;
   flex-flow: row nowrap;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 
@@ -116,20 +118,20 @@ h1{
     width: 7%;
 }
 
-#spancont1{
+#spacont1{
   box-sizing: content-box;
-  border-right: 3px solid black;
+  border-right: 2px solid black;
 }
 
-#spancont2{
+#spacont2{
   box-sizing: content-box;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
-#spancont3{
+#spacont3{
   box-sizing: border-box;
-  border-left: 3px solid black;
+  border-left: 2px solid black;
 }
 
 footer {
