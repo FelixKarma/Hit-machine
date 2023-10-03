@@ -23,7 +23,7 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   height: 60px;
-  background: #222;
+  background: #252422;
 }
 
 .logo {
@@ -61,7 +61,7 @@ header {
 /* NAVBAR */
 
 .nav{
-  background: #a0a0a0;
+  background: #4b4743;
   display: flex;
   height: 30px;
 }
@@ -77,12 +77,12 @@ header {
   border: 0;
   width: 75px;
   height: 30px;
-  background: #a0a0a0;
+  background: #4b4743;
 }
 
 .btn_nav a button:hover {
   color: #fffcf2;
-  background-color: #222;
+  background-color: #252422;
 }
 
 /* Bouton Dropdown */
@@ -93,7 +93,7 @@ header {
 }
 
 .dropbtn {
-  background-color: #a0a0a0;
+  background-color: #4b4743;
   border: 2px;
   width: 75px;
   height: 30px;
@@ -247,7 +247,7 @@ border-color: #849fff;
 /* FOOTER */
 
 footer {
-  background-color: #222;
+  background-color: #4b4743;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -257,14 +257,14 @@ footer {
 }
 
 footer a button {
-  color: rgb(194, 180, 180);
+  color: #fffcf2;
   border: 0;
-  background-color: #222;
+  background-color: #4b4743;
   height: 40px;
   width: 100px;
 }
 
 footer a button:hover {
-  background-color: rgb(194, 180, 180);
-  color: #222;
+  background-color: #fffcf2c3;
+  color: #4b4743;
 }
