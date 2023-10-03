@@ -1,9 +1,13 @@
+//Constantes
+const btn = document.querySelector(".btn_lnd");
+const theme = document.querySelector("#theme");
+
 // Classes
 class bands {
   constructor(band_name, band_img, genre, band_desc, song_name, song) {
     this.band_name = band_name;
     this.band_img = band_img;
-    this.genre=genre;
+    this.genre = genre;
     this.band_desc = band_desc;
     this.song_name = song_name;
     this.song = song;
@@ -61,14 +65,14 @@ function setBand(groups) {
     document.getElementById("bdesc").innerHTML = grp2.band_desc;
     document.getElementById("sname").innerHTML = grp2.song_name;
     document.getElementById("song").src = grp2.song;
-  } else if (groups == "grp3"){
+  } else if (groups == "grp3") {
     document.getElementById("bname").innerHTML = grp3.band_name;
     document.getElementById("bimg").src = grp3.band_img;
     document.getElementById("genre").innerHTML = grp3.genre;
     document.getElementById("bdesc").innerHTML = grp3.band_desc;
     document.getElementById("sname").innerHTML = grp3.song_name;
     document.getElementById("song").src = grp3.song;
-  }else{
+  } else {
     document.getElementById("bname").innerHTML = grp4.band_name;
     document.getElementById("bimg").src = grp4.band_img;
     document.getElementById("genre").innerHTML = grp4.genre;
@@ -77,3 +81,15 @@ function setBand(groups) {
     document.getElementById("song").src = grp4.song;
   }
 }
+
+btn.addEventListener("click", function () {
+  // Si notre URL contient le light-mode (ici inscription)
+  if (theme.getAttribute("href") == "../css/charly.css") {
+    // Puis on switch au dark-mode
+    theme.href = "../css/dark-charly.css";
+    // Sinon
+  } else {
+    // Retour au  "charly.css"
+    theme.href = "../css/charly.css";
+  }
+});

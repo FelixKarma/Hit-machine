@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/charly.css" />
+    <link rel="stylesheet" href="../css/charly.css" id="theme"/>
     <title>Xx_Charly_xX</title>
   </head>
   <body>
@@ -24,7 +24,7 @@
 
       <div class="btn_switch">
         <item class="switch"
-          ><button class="btn_lnd">light/dark switch</button>
+          ><button class="btn_lnd" >light/dark switch</button>
         </item>
 
         <item
@@ -46,9 +46,23 @@
       <div class="btn_nav">
         <a href="accueil.html" id="navi"><button>Accueil</button></a>
         <a href=""><button>Blogs</button></a>
-        <a href=""><button>Profils</button></a>
+        <div class="dropdown">
+          <button class="dropbtn">Profils</button>
+          <div class="dropctn">
+            <a href="profiljosh.html">EleKdONnfZik</a>
+            <a href="profil_lecolondejack.html">LeColonDeJack</a>
+          </div>
+          <div></div>
+        </div>
         <a href=""><button>Chat</button></a>
-        <a href="" hover><button>Plus</button></a>
+        <div class="dropdown">
+          <button class="dropbtn">Plus</button>
+          <div class="dropctn">
+            <a href="soutient.html">Soutenez-nous</a>
+            <a href="signalbug.html">Signaler un Bug</a>
+            <a href="contact.html">Contacts</a>
+          </div>
+        </div>
       </div>
       <form
         class="searchbar"
