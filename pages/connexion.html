@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Page de connexion</title>
+    <title>Se Connecter</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -50,10 +50,25 @@
     <nav>
       <div class="btn_nav">
         <a href="accueil.html" id="navi"><button>Accueil</button></a>
-        <a href=""><button>Blogs</button></a>
-        <a href=""><button>Profils</button></a>
-        <a href=""><button>Chat</button></a>
-        <a href="" hover><button>Plus</button></a>
+        <a href=""><button id="btnblg">Blogs</button></a>
+        <div class="dropdown">
+          <button class="dropbtn" id="btnprof">Profils</button>
+          <div class="dropctn">
+            <a href="profiljosh.html">EleKdONnfZik</a>
+            <a href="profil_lecolondejack.html">LeColonDeJack</a>
+            <a href="profilcharly.html">xX_Charly_Xx</a>
+          </div>
+          <div></div>
+        </div>
+        <a href=""><button id="btnchat">Chat</button></a>
+        <div class="dropdown">
+          <button class="dropbtn" id="btnpls">Plus</button>
+          <div class="dropctn">
+            <a href="soutient.html" id="href1">Soutenez-nous</a>
+            <a href="signalbug.html" id="href2">Signaler un Bug</a>
+            <a href="contact.html" id="href3">Contacts</a>
+          </div>
+        </div>
       </div>
       <form
         class="searchbar"
@@ -98,7 +113,7 @@
           ></i>
         </section>
         <section id="section2">
-          <form action="accueil.html">
+          <form action="accueil.html" method="get">
             <i
               class="fa fa-arrow-circle-o-right"
               style="font-size: 24px"

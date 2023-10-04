@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/Header_footer.css" />
+    <link rel="stylesheet" href="../css/Header_footer.css" id="theme" />
     <link rel="stylesheet" href="../css/profil_lecolondejack.css" />
     <script
       src="https://kit.fontawesome.com/73054f2945.js"
@@ -55,7 +55,6 @@
           <button class="dropbtn" id="btnprof">Profils</button>
           <div class="dropctn">
             <a href="profiljosh.html">EleKdONnfZik</a>
-            <a href="profil_lecolondejack.html">LeColonDeJack</a>
             <a href="profilcharly.html">xX_Charly_Xx</a>
           </div>
           <div></div>
@@ -70,7 +69,24 @@
           </div>
         </div>
       </div>
-
+      <form
+        class="searchbar"
+        action="../pages/recherche.html"
+        id="form"
+        method="get"
+        itemprop="potentialAction"
+      >
+        <meta itemprop="target" content="accueil.html/?s={query}" />
+        <input
+          id="s"
+          itemprop="query-input"
+          class="search-live"
+          type="text"
+          placeholder="Recherche"
+          name="s"
+          autocomplete="off"
+        />
+        <button type="submit" id="search">Recherche</button>
       </form>
     </nav>
 
@@ -163,5 +179,6 @@
       >
     </footer>
     <script src="../Js/profil_colon copy.js"></script>
+    <script src="../Js/dark-colon.js"></script>
   </body>
 </html>
