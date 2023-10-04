@@ -395,3 +395,24 @@ footer a button:hover {
   background-color: rgb(194, 180, 180);
   color: #222;
 }
+
+#fr,#eng,#leet{
+  color: rgb(194, 180, 180);
+  border: 0;
+  background-color: #222;
+  height: 40px;
+  width: 100px;
+}
+
+#fr:hover{
+  background-color: rgb(194, 180, 180);
+  color: #222;
+}
+#eng:hover{
+  background-color: rgb(194, 180, 180);
+  color: #222;
+}
+#leet:hover{
+  background-color: rgb(194, 180, 180);
+  color: #222;
+}
