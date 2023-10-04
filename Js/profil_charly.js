@@ -48,6 +48,14 @@ let grp4 = new bands(
   `/audio/Puppetmastaz.mp3`
 );
 
+//Par défault sur le premier groupe
+document.getElementById("bname").innerHTML = grp1.band_name;
+document.getElementById("bimg").src = grp1.band_img;
+document.getElementById("genre").innerHTML = grp1.genre;
+document.getElementById("bdesc").innerHTML = grp1.band_desc;
+document.getElementById("sname").innerHTML = grp1.song_name;
+document.getElementById("song").src = grp1.song;
+
 /*Fonctions*/
 
 function setBand(groups) {
