@@ -162,9 +162,54 @@
             src="../Img/profil_colon/BA24.jpg"
             alt="Brutal Assault 2024"
         /></a>
-      </div>
-    </main>
 
+        <!-- COMMENT SECTION -->
+
+        <div class="container">
+          <h4>Tu veux voir d'autres groupes sur cette page ?</h4>
+          <form id="form1">
+            <textarea
+              class="textarea_comment"
+              placeholder="Laisse leurs noms ici."
+            ></textarea>
+            <div class="btn_div">
+              <button class="comment open-button" type="submit" value="Envoyer" onclick="togglePopup()"; >Envoyer</button>
+              <button class="btn_comment" id="clear" href="#">Annuler</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </main>
+    
+    <!-- POPUP -->
+
+    <dialog class="modal" id="modal">
+      <h2>An interesting title</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse nisi, laboriosam illum temporibus ipsam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quo.</p>
+      <button class="button close-button">close modal</button>
+      <form class="form" method="dialog">
+        <label>Your name <input type="text"></label>
+        <label>Your email <input type="email"></label>
+        <button class="button" type="submit">submit form</button>
+      </form>
+    
+    </dialog>
+
+
+<!-- <div class="popup" id="popup_1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close_btn" onclick="togglePopup()">&times;</div>
+          <h1>Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            accusamus, nemo consectetur cum praesentium facere!
+          </p>
+        </div>
+      </div> -->
+      
     <!-- FOOTER -->
 
     <footer class="footer">

@@ -152,3 +152,119 @@ main {
   font-style: italic;
 }
 
+/* COMMENT SECTION */
+
+.container
+{
+    width: 250px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    background-color: #aaa;
+}
+.container h4
+{
+    text-align: center;
+    margin-bottom: 15px
+}
+.textarea_comment
+{
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e7dede;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+input .comment, .btn_comment
+{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input .comment
+{
+    color: #fff;
+    background-color: #273c75
+}
+.btn_comment
+{
+    color: #333;
+    background-color: transparent
+}
+.btn_div
+{
+    display: none
+}
+
+/* POPUP */
+
+.modal {
+   /* padding: 1em; */
+  max-width: 50ch;
+   /* border: 0;
+   box-shadow: 0 0 1em rgb(0 0 0 / .3); */
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+
+
+/* .popup .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+  z-index: 1;
+  display: none;
+}
+
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  background: #fff;
+  width: 450px;
+  height: 220px;
+  z-index: 2;
+  padding: 20%;
+  box-sizing: border-box;
+}
+
+.popup .close_btn {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222;
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.popup .active .overlay {
+  display: block;
+}
+
+.popup .active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%,-50%) scale(1);
+} */

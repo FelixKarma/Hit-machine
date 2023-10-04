@@ -129,10 +129,55 @@ function setBand(groups) {
   }
 }
 
+// COMMENT SECTION
+const form1 = document.getElementById('form1');
+var feild = document.querySelector('.textarea_comment');
+var backUp = feild.getAttribute('placeholder');
+var btn = document.querySelector('.btn_div');
+var clear = document.getElementById('clear')
+
+form1.addEventListener('submit', (event) => {
+  event.preventDefault();
+});
+
+
+feild.onfocus = function(){
+    this.setAttribute('placeholder', '');
+    this.style.borderColor = '#333';
+    btn.style.display = 'block'
+}
+
+feild.onblur = function(){
+    this.setAttribute('placeholder',backUp);
+    this.style.borderColor = '#aaa'
+}
+
+clear.onclick = function(){
+    btn.style.display = 'none';
+     feild.value = '';
+}
+
+
+// POPUP
+
+const modal = document.querySelector("#modal");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
 
 
 
-// DOMContentLoaded   event
 
-addEventListener
+// function togglePopup(){
+//   document.getElementById("popup_1").classList.toggle("active");
+// }
+
+
 
