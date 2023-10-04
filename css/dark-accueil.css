@@ -378,25 +378,47 @@ h4 {
 }
 
 footer {
-    background-color: #4b4743;
-    height: 40px;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  footer a button {
+  background-color: #222;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a button {
+  color: #fffcf2;
+  border: 0;
+  background-color: #222;
+  height: 40px;
+  width: 100px;
+}
+
+footer a button:hover {
+  background-color: #fffcf2c3;
+  color: #222;
+}
+
+
+  #fr,#eng,#leet{
     color: #fffcf2;
     border: 0;
-    background-color: #4b4743;
+    background-color: #222;
     height: 40px;
     width: 100px;
   }
   
-  footer a button:hover {
-    background-color: #fffcf2c3;
-    color: #4b4743;
+  #fr:hover{
+    background-color: #fffcf2;
+    color: #222;
+  }
+  #eng:hover{
+    background-color: #fffcf2;
+    color: #222;
+  }
+  #leet:hover{
+    background-color: #fffcf2;
+    color: #222;
   }
