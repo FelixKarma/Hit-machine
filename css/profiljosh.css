@@ -265,6 +265,11 @@ h4{
     margin: 2%;
 }
 
+.color::first-letter{
+  color: #f52c2c;
+  border-color: black;
+}
+
 #textprof{
   text-align: left;
 }
