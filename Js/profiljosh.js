@@ -10,12 +10,12 @@ class musics{
 
 
 let mus1 = new musics(
-    "Astronomia", 
-    "Vicetone & Tony Igy",
-    "Electro Music",
-    "/Img/profiljosh/imgastro.jpg",
-    "/audio/Astronomia.mp3"
-    );
+  "Substitution",
+  "Purple Machine Disco et Kungs",
+  "Electro Music",
+  "/Img/profiljosh/imgsubstitution.jpg",
+  "/audio/Substitution.mp3"
+);
 
 let mus2 = new musics(
     "It Went",
@@ -26,12 +26,12 @@ let mus2 = new musics(
 );
 
 let mus3 = new musics(
-    "Substitution",
-    "Purple Machine Disco et Kungs",
-    "Electro Music",
-    "/Img/profiljosh/imgsubstitution.jpg",
-    "/audio/Substitution.mp3"
-);
+  "Astronomia", 
+  "Vicetone & Tony Igy",
+  "Electro Music",
+  "/Img/profiljosh/imgastro.jpg",
+  "/audio/Astronomia.mp3"
+  );
 
 let mus4 = new musics(
     "Bye Bye Bye",

@@ -191,11 +191,10 @@ main {
   background: #000000;
   background: -webkit-linear-gradient(to left, #a0a0a0, #0074d9);
   width: 100%;
-  height: 100vh;
 }
 
 .circles {
-  position:  relative;
+  position: relative;
   z-index: 0;
   top: 0;
   left: 0;
