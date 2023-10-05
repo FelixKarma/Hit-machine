@@ -19,32 +19,32 @@ let grp1 = new bands(
   "Cypress Hill",
   "/Img/profil_charly/cypress.jpg",
   "Hip-Hop",
-  "Mon gros caca",
-  "ENORME",
+  "Cypress Hill est un groupe de hip-hop latino-américain, originaire de Los Angeles, en Californie. Le gorupe est composé par Sen Dog, Mellow Man Ace, Muggs et B-Real. Je recommande fortement la compil d'album \"The Essential Cypress Hill\" qui regroupe leurs plus gros hits.",
+  "Latin Lingo",
   `/audio/Latin Lingo.mp3`
 );
 let grp2 = new bands(
   "Balthazar",
   "/Img/profil_charly/Balthazar.jpg",
   "Indie Pop/Rock",
-  "Mes gros caca",
-  "ENORMEE",
+  "Balthazar est un groupe belge de rock alternatif formé en 2004 par des musiciens originaires de la région de Courtrai, en Flandre-Occidentale. Je recommande personellement leur premier Album \"Applause\". :D ",
+  "I'll Stay Here",
   `/audio/Balthazar.mp3`
 );
 let grp3 = new bands(
   "Odezenne",
   "/Img/profil_charly/Odezenne.jpg",
   "Electro/Rap/Alt",
-  "Nos gros caca",
-  "ENORMEEE",
+  "Odezenne est un groupe français de musique alternative, originaire de Bordeaux. Il est formé par Alix Caillet, Jacques Cormary et Mattia Lucchini. Je recommanderais ici l'album \"1200 mètres en tout\".",
+  "Caprice",
   `/audio/Odezenne.mp3`
 );
 let grp4 = new bands(
   "Puppetmastaz",
   "/Img/profil_charly/Puppetmastaz.jpg",
   "Hip-Hop/Rap/Funk/Electro",
-  "Nos gros caca",
-  "ENORMEEE",
+  "Puppetmastaz est un groupe de hip-hop allemand fondé dans les années 1990 dans lequel les membres sont représentés par des marionnettes. Les artistes derrières ces marionnettes incluent: AD Hawk, Chilly Gonzales, Mocky, Dave Szigeti, David Skiba, N1tro, Patric Cremer et Blake Worrell. L'inventeur et Bandleader de ces Puppetmastaz: Paul Affeld (aka Paul PM - Mister Maloke).",
+  "Do the Swamp",
   `/audio/Puppetmastaz.mp3`
 );
 

@@ -6,6 +6,17 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+hr{
+  height: 3px;
+  background-color: #c7c5bf8e;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  border: none;
+  border-radius: 100%;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -133,7 +144,8 @@ header {
 }
 
 .dropctn a:hover {
-  background-color: #2e2614;
+  background-color: #c4be8e;
+  color: #2e2614;
 }
 
 .dropdown:hover .dropctn {
@@ -240,6 +252,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 20%;
+  max-height: 500px;
   flex-wrap: wrap;
   align-items: center;
   border-radius: 2rem;
@@ -255,9 +268,14 @@ main {
 
 .imggrp {
   max-height: 400px;
+  height: 100%;
 }
 .selectsp {
   padding: 30px;
+}
+#groups:hover{
+  background-color: #2e2614;
+  cursor: wait;
 }
 #groups {
   appearance: none;
@@ -275,6 +293,9 @@ main {
   cursor: inherit;
   line-height: inherit;
   outline: none;
+}
+option:hover{
+  background-color: #c4be8e;
 }
 
 /* FOOTER */

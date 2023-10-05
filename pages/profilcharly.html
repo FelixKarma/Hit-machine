@@ -96,7 +96,7 @@
           </nav>
           <nav class="imgcenter">
             <img
-              src="/Img/blog/pp.jpg"
+              src="/Img/profil_charly/pp.jpg"
               alt="Profile Picture"
               class="profilepic"
             />
@@ -123,7 +123,9 @@
           <h2 class="" id="bname">Nom du Groupe</h2>
           <img id="bimg" class="imggrp" src="" alt="Cypress Hill" />
           <p id="genre">genre</p>
+          <hr>
           <p class="" id="bdesc">band_description</p>
+          <hr>
           <p class="" id="sname">song_name</p>
           <audio controls class="" src="" id="song"></audio>
         </div>
@@ -132,7 +134,7 @@
             <h1 class="gtitre">Infos</h1>
           </nav>
           <div>
-            <select name="groups" id="groups">
+            <select name="groups" id="groups" onfocus='this.size=10;' onblur='this.size=0;' onchange='this.size=1; this.blur();'>
               <span class="selectsp">
                 <option value="grp1" onclick="setBand('grp1')">
                   Cypress Hill

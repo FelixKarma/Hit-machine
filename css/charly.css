@@ -13,6 +13,17 @@ body {
   flex-direction: column;
 }
 
+hr{
+  height: 3px;
+  background-color: #c7c5bf8e;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  border: none;
+  border-radius: 100%;
+}
+
 /* HEADER */
 
 /* PARTIE HAUTE */
@@ -216,6 +227,13 @@ main {
 }
 #bimg{
   filter: drop-shadow(0px 16px 10px rgba(18, 18, 19, 0.6));
+  margin: 10px;
+}
+#bdesc {
+  margin: 10px;
+}
+#sname {
+  margin: 10px;
 }
 .infos {
   display: flex;
@@ -242,7 +260,7 @@ main {
 }
 #groups {
   appearance: none;
-  background-color: #28150d;
+  background-color: #0074d9;
   color: #fffcf2;
   border: solid;
   border-color: #fffcf2;
@@ -256,6 +274,9 @@ main {
   cursor: inherit;
   line-height: inherit;
   outline: none;
+}
+option:hover{
+  background-color: #3790df;
 }
 
 /* FOOTER */
