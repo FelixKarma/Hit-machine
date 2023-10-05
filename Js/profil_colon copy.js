@@ -69,13 +69,13 @@ let grp5 = new band(
 );
 
 document.getElementById("bname").innerHTML = grp1.band_name;
-    document.getElementById("bimg").src = grp1.band_logo;
-    document.getElementById("bimg").alt = grp1.band_name;
-    document.getElementById("genre").innerHTML = grp1.genre;
-    document.getElementById("bdesc").innerHTML = grp1.band_description;
-    document.getElementById("sname").innerHTML = grp1.song_name;
-    document.getElementById("song").src = grp1.band_audio;
-    document.getElementById("bandcamp").href = grp1.bandcamp;
+document.getElementById("bimg").src = grp1.band_logo;
+document.getElementById("bimg").alt = grp1.band_name;
+document.getElementById("genre").innerHTML = grp1.genre;
+document.getElementById("bdesc").innerHTML = grp1.band_description;
+document.getElementById("sname").innerHTML = grp1.song_name;
+document.getElementById("song").src = grp1.band_audio;
+document.getElementById("bandcamp").href = grp1.bandcamp;
 
 /*Fonctions*/
 
@@ -130,33 +130,32 @@ function setBand(groups) {
 }
 
 // COMMENT SECTION
-const form1 = document.getElementById('form1');
-var feild = document.querySelector('.textarea_comment');
-var backUp = feild.getAttribute('placeholder');
-var btn = document.querySelector('.btn_div');
-var clear = document.getElementById('clear')
 
-form1.addEventListener('submit', (event) => {
+const form1 = document.getElementById("form1");
+var feild = document.querySelector(".textarea_comment");
+var backUp = feild.getAttribute("placeholder");
+var btn = document.querySelector(".btn_div");
+var clear = document.getElementById("clear");
+
+form1.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 
+feild.onfocus = function () {
+  this.setAttribute("placeholder", "");
+  this.style.borderColor = "#333";
+  btn.style.display = "block";
+};
 
-feild.onfocus = function(){
-    this.setAttribute('placeholder', '');
-    this.style.borderColor = '#333';
-    btn.style.display = 'block'
-}
+feild.onblur = function () {
+  this.setAttribute("placeholder", backUp);
+  this.style.borderColor = "#aaa";
+};
 
-feild.onblur = function(){
-    this.setAttribute('placeholder',backUp);
-    this.style.borderColor = '#aaa'
-}
-
-clear.onclick = function(){
-    btn.style.display = 'none';
-     feild.value = '';
-}
-
+clear.onclick = function () {
+  btn.style.display = "none";
+  feild.value = "";
+};
 
 // POPUP
 
@@ -171,13 +170,3 @@ openModal.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
   modal.close();
 });
-
-
-
-
-// function togglePopup(){
-//   document.getElementById("popup_1").classList.toggle("active");
-// }
-
-
-
