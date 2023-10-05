@@ -214,11 +214,11 @@ main {
   width: 20%;
   border-radius: 2rem;
   color: #c7c5bf;
-  background-image: linear-gradient(#858482, #474747c6);
+  background-image: linear-gradient(#858482, #474747cb);
   border: double;
   border-color: #c2bd98;
   position: sticky;
-  max-height: 700px;
+  max-height: 500px;
 }
 .profilepic {
   height: 15vh;

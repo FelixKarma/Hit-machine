@@ -186,7 +186,7 @@ nav {
 }
 
 .article {
-  background-image: linear-gradient(white, #474747);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.611), #474747a5);
   display: flex;
   text-align: center;
   align-items: center;
@@ -209,6 +209,10 @@ nav {
 main {
   flex: 1;
   padding-top: 4%;
+  background-image: url(/Img/fondinsc.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {
