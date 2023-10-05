@@ -149,10 +149,10 @@ main {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
   background-image: url(../Img/bgaccueil.avif);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100vw ;
+  /* background-size: 100vw ; */
 }
 
 #sub1,#sub2,#sub3{
