@@ -134,38 +134,77 @@
 main{
     text-align: center;
     flex: 1;
+    background-image: url(../Img/moneyes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
-section{
-    background-color: white;
-    margin: 10px;
-    
-}
 
 h1{
 
-    background-color: white;
+    font-size: x-large;
     color: red;
+    
+}
+
+#arrow{
+  color: blue;
+}
+
+.secsout{
+    display: flex;
+    justify-content: center;
+}
+
+.artsout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+
+
+#cadre{
+  display: flex;
+  flex-direction: column;
+align-items: center;
 }
 
 p{
-    background-color: #1e1e1e;
+    font-size: large;
     color: red;
 }
-.spaImg{
-    display: flex;
-    justify-content: center;
-    flex-flow: row nowrap;
+
+.arrow_box {
+	position: relative;
+	background: -webkit-linear-gradient(white, rgb(87, 119, 213));
+	border: 4px solid #101b95;
+  width: 15%;
+  
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
 }
 
-#iconjar1{
-    width: 8%;
+.arrow_box:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #1f15d5;
+	border-width: 25px;
+	margin-left: -25px;
 }
-
-#iconjar2{
-    width: 8%;
-    background: none;
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #1f15d5;
+	border-width: 25px;
+	margin-left: -25px;
 }
 
 #pay{
@@ -174,21 +213,6 @@ p{
     height: 50px;
     background-color: blue;
     color: white;
-}
-
-.secsout{
-    display: flex;
-    justify-content: center;
-}
-
-#artsout{
-    box-sizing: border-box;
-    background-image: url(/Img/imgdonate.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid black;
-    width: 58%
-    
 }
 
 footer {

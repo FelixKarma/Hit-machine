@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/profiljosh.css">
+    <link rel="stylesheet" href="/css/profiljosh.css" >
     <title>EleKdONnfZik</title>
 </head>
 
@@ -30,12 +30,12 @@
 
         <item
           ><a href="connexion.html"
-            ><button class="caclasse">Se connecter</button></a
+            ><button class="caclasse" id="btnconn">Se connecter</button></a
           ></item
         >
         <item
           ><a href="inscription.html"
-            ><button class="caclasse">S'inscrire</button></a
+            ><button class="caclasse" id="btnins">S'inscrire</button></a
           ></item
         >
       </div>
@@ -43,23 +43,23 @@
   
     <nav>
       <div class="btn_nav">
-        <a href="accueil.html" id="navi"><button>Accueil</button></a>
+        <a href="accueil.html" id="navi"><button id="btnac">Accueil</button></a>
         <a href=""><button>Blogs</button></a>
         <div class="dropdown">
-          <button class="dropbtn">Profils</button>
+          <button class="dropbtn" id="btnprof">Profils</button>
           <div class="dropctn">
             <a href="profil_lecolondejack.html">LeColonDeJack</a>
             <a href="profilcharly.html">xX_Charly_Xx</a>
           </div>
           <div></div>
         </div>
-        <a href=""><button>Chat</button></a>
+        <a href=""><button id="btnchat">Chat</button></a>
         <div class="dropdown">
-          <button class="dropbtn">Plus</button>
+          <button class="dropbtn" id="btnpls">Plus</button>
           <div class="dropctn">
-            <a href="soutient.html">Soutenez-nous</a>
-            <a href="signalbug.html">Signaler un Bug</a>
-            <a href="contact.html">Contacts</a>
+            <a href="soutient.html" id="href1">Soutenez-nous</a>
+            <a href="signalbug.html" id="href2">Signaler un Bug</a>
+            <a href="contact.html" id="href3">Contacts</a>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@
             </article>
             <article id="prof2">
                 <nav class="htitre">
-                    <h1 class="gtitre">Mes poste</h1>
+                    <h1 class="gtitre" id="myp">Mes postes</h1>
                     <select name="groups" id="groups">
                       <option value="mus1" onclick="setMusics('mus1')">Astronomia</option>
                       <option value="mus2" onclick="setMusics('mus2')">It Went</option>
@@ -154,10 +154,10 @@
       </main>
       
       <footer class="footer">
-        <a href="contact.html"><button>Contactez-nous</button></a>
-        <a href="CGU.text" target="_blank"><button>CGU</button></a>
-        <a href="signalbug.html"><button>Signaler un bug</button></a>
-        <a href="soutient.html"><button>Soutenez-nous</button></a>
+        <a href="contact.html"><button id="f1">Contactez-nous</button></a>
+        <a href="CGU.text" target="_blank"><button id="f2">CGU</button></a>
+        <a href="signalbug.html"><button id="f3">Signaler un bug</button></a>
+        <a href="soutient.html"><button id="f4">Soutenez-nous</button></a>
         <span>
           <button id="fr">Français</button>
           <button id="eng">Anglais</button>

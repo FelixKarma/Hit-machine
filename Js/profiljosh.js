@@ -100,7 +100,7 @@ function setMusics(groups) {
                             document.getElementById("mimg").alt  = mus5.music_name;
                             document.getElementById("music_audio").src = mus5.music_audio;
                         }
-}
+};
 
 $ = function(id) {
     return document.getElementById(id);
@@ -111,7 +111,8 @@ $ = function(id) {
   }
   var hide = function(id) {
       $(id).style.display ='none';
-  }
+  };
+
 
 //Constantes
 const btnfr = document.querySelector("#fr");
@@ -133,7 +134,7 @@ class trads {
     href3,
     trad_srch,
     trad_btn,
-    trad_blgsmn,
+    trad_myp,
     trad_f1,
     trad_f2,
     trad_f3,
@@ -151,7 +152,7 @@ class trads {
     this.href3 = href3;
     this.trad_srch = trad_srch;
     this.trad_btn = trad_btn;
-    this.trad_blgsmn = trad_blgsmn;
+    this.trad_myp = trad_myp;
     this.trad_f1 = trad_f1;
     this.trad_f2 = trad_f2;
     this.trad_f3 = trad_f3;
@@ -173,7 +174,7 @@ let tradfr = new trads(
   "Contacts",
   "Recherche",
   "Recherche",
-  "Blog de la semaine",
+  "Mes postes",
   "Contactez-nous",
   "CGU",
   "Signaler un Bug",
@@ -193,7 +194,7 @@ let tradeng = new trads(
   "Contacts",
   "Search",
   "Search",
-  "Blog of the week",
+  "My posts",
   "Contact us",
   "GUT",
   "Report a Bug",
@@ -213,7 +214,7 @@ let tradleet = new trads(
   "C0N74C75",
   "R3CH3rCH3",
   "R3CH3rCH3",
-  "8106 D3 14 53M41N3",
+  "M35 P05735",
   "C0N74C73Z-N0U5 ",
   "C6U",
   "516N413r UN 8U6",
@@ -236,7 +237,7 @@ btnfr.addEventListener("click", function () {
   document.getElementById("href3").innerText = tradfr.href3;
   document.getElementById("s").placeholder = tradfr.trad_srch;
   document.getElementById("search").innerText = tradfr.trad_btn;
-  document.getElementById("blgsmn").innerText = tradfr.trad_blgsmn;
+  document.getElementById("myp").innerText = tradfr.trad_myp;
   document.getElementById("f1").innerText = tradfr.trad_f1;
   document.getElementById("f2").innerText = tradfr.trad_f2;
   document.getElementById("f3").innerText = tradfr.trad_f3;
@@ -256,7 +257,7 @@ btneng.addEventListener("click", function () {
   document.getElementById("href3").innerText = tradeng.href3;
   document.getElementById("s").placeholder = tradeng.trad_srch;
   document.getElementById("search").innerText = tradeng.trad_btn;
-  document.getElementById("blgsmn").innerText = tradeng.trad_blgsmn;
+  document.getElementById("myp").innerText = tradeng.trad_myp;
   document.getElementById("f1").innerText = tradeng.trad_f1;
   document.getElementById("f2").innerText = tradeng.trad_f2;
   document.getElementById("f3").innerText = tradeng.trad_f3;
@@ -276,7 +277,7 @@ btnleet.addEventListener("click", function () {
   document.getElementById("href3").innerText = tradleet.href3;
   document.getElementById("s").placeholder = tradleet.trad_srch;
   document.getElementById("search").innerText = tradleet.trad_btn;
-  document.getElementById("blgsmn").innerText = tradleet.trad_blgsmn;
+  document.getElementById("myp").innerText = tradleet.trad_myp;
   document.getElementById("f1").innerText = tradleet.trad_f1;
   document.getElementById("f2").innerText = tradleet.trad_f2;
   document.getElementById("f3").innerText = tradleet.trad_f3;

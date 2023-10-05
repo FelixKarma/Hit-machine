@@ -86,11 +86,17 @@
     
     <main>
         <section class="secsout">
-            <article id="artsout"><br><br>
-            <span class="spaImg"><img src="/Img/tips.png" alt="Image d'une jar remplis d'argent" id="iconjar1"><h1>Soutenez-nous
-            </h1><img src="/Img/tips.png" alt="Image d'une jar remplis d'argent" id="iconjar2"></span>
-            <br><br><br><br>
-            <p>Ajoutez donc votre pierre a l'édifice en faisant un don pour nous permettre de maintenir notre site.</p><br><br><br>
+            <article>
+              <br><br><br><br><br><br><br>
+            <h1>Soutenez-nous</h1>
+            <br><br><br><br><br>
+            <p>Ajoutez donc votre pierre a l'édifice en faisant un don pour nous permettre de maintenir notre site.</p><br><br>
+            <span id="cadre">
+            <div class="arrow_box">
+              <h1 id="arrow">Paypal</h1>
+          </div>
+        </span>
+          <br>
             <a href="https://www.paypal.com/fr/home" target="_blank"><button id="pay">Faire un don</button></a></div>
             <br><br><br><br><br><br><br><br><br><br>
 
@@ -99,6 +105,16 @@
     </section>
     </main>
     
+    <script type="text/javascript">
+
+      pay.addEventListener("click", function () {
+        window.setTimeout(function() {
+          window.location.href = "../pages/accueil.html"
+        }, 2000)
+      })
+
+    </script>
+
     <footer class="footer">
         <a href="contact.html"><button>Contactez-nous</button></a>
         <a href="CGU.text" target="_blank"><button>CGU</button></a>
