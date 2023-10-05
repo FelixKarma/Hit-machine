@@ -12,6 +12,8 @@
     flex-direction: column;
     margin: 0px;
     background-image: url(../Img/imgmatrix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   header {
