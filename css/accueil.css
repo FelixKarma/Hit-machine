@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
 }
 
 body {
@@ -456,4 +457,9 @@ footer a button:hover {
 #leet:hover{
   background-color: rgb(194, 180, 180);
   color: #222;
+}
+
+.week_name {
+  font-size: 35px;
+  margin: 15px 0px 10px 0px;
 }
