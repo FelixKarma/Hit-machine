@@ -134,7 +134,10 @@ main{
     flex: 1;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
-
+background-image: url(/Img/fondcontact.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
 h1{
