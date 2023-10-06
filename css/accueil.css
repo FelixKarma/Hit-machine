@@ -388,6 +388,7 @@ figure img {
   width: 20%;
   border-radius: 2rem;
   text-align: left;
+  height: fit-content;
 }
 
 .divami {
