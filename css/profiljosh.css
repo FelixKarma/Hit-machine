@@ -177,6 +177,7 @@ h1{
     text-align: center;
     border-radius: 2rem;
     margin: 2%;
+    height: fit-content;
 }
 
 #btnlik{
@@ -263,6 +264,7 @@ h4{
     border-radius: 2rem;
     box-sizing: border-box;
     margin: 2%;
+    height: fit-content;
 }
 
 .color::first-letter{
